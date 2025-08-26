@@ -27867,7 +27867,7 @@
 				)
 			)
 		)
-		(property "Value" "PTS526 SK15 SMTR2 LFS"
+		(property "Value" "ESC"
 			(at 129.54 38.1 0)
 			(effects
 				(font
