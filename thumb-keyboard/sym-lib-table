@@ -4,4 +4,6 @@
   (lib (name "2025-08-21_16-21-39")(type "KiCad")(uri "${KIPRJMOD}/../libraries/PTS526_SK15_SMTR2_LFS/KiCADv6/2025-08-21_16-21-39.kicad_sym")(options "")(descr ""))
   (lib (name "SSSS811101")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SSSS811101/SSSS811101.kicad_sym")(options "")(descr ""))
   (lib (name "B3F-1000")(type "KiCad")(uri "/home/rileytuttle/order66keyboard/order66-pcb/libraries/B3F_1000/B3F-1000.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-08-27_13-44-35")(type "KiCad")(uri "/home/rileytuttle/order66keyboard/order66-pcb/libraries/222AMVBAR/KiCADv6/2025-08-27_13-44-35.kicad_sym")(options "")(descr ""))
+  (lib (name "reverse_mount_led")(type "KiCad")(uri "/home/rileytuttle/order66keyboard/order66-pcb/libraries/4960/KiCADv6/2025-08-27_14-02-11.kicad_sym")(options "")(descr ""))
 )

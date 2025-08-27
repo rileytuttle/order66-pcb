@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,12 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|172045900|74545900|7037f032-be41-4163-8ad4-95374c04c83b|b8c677a5-1f96-4d8c-b2d6-7eaaa4c161a4",
-          "strain relief courtyard may not be useed"
-        ],
-        [
-          "courtyards_overlap|174531039|69024089|5f44302b-441c-470f-b131-a00c5129bd5c|b8c677a5-1f96-4d8c-b2d6-7eaaa4c161a4",
-          "this is for wire strain relief and may not be used anyways"
+          "courtyards_overlap|173030189|69824089|5f44302b-441c-470f-b131-a00c5129bd5c|b8c677a5-1f96-4d8c-b2d6-7eaaa4c161a4",
+          "may not use this direct solder with relief"
         ]
       ],
       "meta": {
@@ -530,6 +526,9 @@
       ],
       "/ROW4": [
         "Default"
+      ],
+      "/VCC": [
+        "power"
       ]
     },
     "netclass_patterns": [
