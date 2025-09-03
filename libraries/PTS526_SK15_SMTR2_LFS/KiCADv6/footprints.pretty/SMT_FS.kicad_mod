@@ -525,4 +525,15 @@
 		(uuid "903b932d-b8be-4e98-b106-ebea56ce0492")
 	)
 	(embedded_fonts no)
+	(model "/home/rileytuttle/order66keyboard/order66-pcb/libraries/PTS526_SK15_SMTR2_LFS/PTS526_SK15_SMTR2_LFS-model-Body.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

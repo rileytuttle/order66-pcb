@@ -1,4 +1,11 @@
-8768773615635
+14039031505428
+1655
+LED_1655
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104152,7 +104159,14 @@ Varistor VF
 0
 2
 2
-footprints
+hiproswitch
+SO4_222A-M-V-B_CTS
+
+222AMVBAR 
+0
+4
+4
+lowproswitch
 SMT_FS
 
 PTS526 SK15 SMTR2 LFS 
@@ -104173,3 +104187,10 @@ nice_nano
 0
 27
 27
+reverse_mount_led
+4960_ADA
+
+4960 
+0
+4
+4

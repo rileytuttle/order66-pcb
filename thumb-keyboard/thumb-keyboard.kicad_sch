@@ -5,6 +5,186 @@
 	(uuid "35e758f0-97c2-4ebe-bd8c-ab932be10f60")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1655:1655"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -10.1621 8.8923 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1655"
+				(at -10.16 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1655:LED_1655"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Adafruit Industries"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1655_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS"
 			(pin_names
 				(offset 0.254)
@@ -200,6 +380,282 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B3F-1000:B3F-1000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -7.6261 7.6261 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B3F-1000"
+				(at -7.6316 -8.9035 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B3F-1000:SW_B3F-1000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Omron"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B3F-1000_0_0"
+				(rectangle
+					(start -8.8931 -6.3522)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.8912 3.8105)
+					(end -7.62 6.35)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.6236 -6.353)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 7.6243 3.8121)
+					(end 8.89 6.35)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -522,261 +978,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:WS2812B"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14382,6 +14583,12 @@
 		(uuid "7e7979d8-f8b9-4797-b9f5-f25edb778f3a")
 	)
 	(junction
+		(at 149.86 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f41a2fb-eb5d-4d1e-94f4-fff555cba26b")
+	)
+	(junction
 		(at 594.36 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14868,12 +15075,6 @@
 		(uuid "d2425f8d-8610-4c59-b4ae-863bb2b99754")
 	)
 	(junction
-		(at 149.86 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2f8460b-8e08-4041-8327-ebeb6bc5f95c")
-	)
-	(junction
 		(at 149.86 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15118,12 +15319,8 @@
 		(uuid "413c8cb7-afc3-42e1-852f-a19d74a6c5bb")
 	)
 	(no_connect
-		(at 40.64 96.52)
-		(uuid "52d4ff85-6289-4231-ba47-017485e9a586")
-	)
-	(no_connect
-		(at 66.04 139.7)
-		(uuid "8f334ba2-37ad-4acf-a02f-7e44977ee61a")
+		(at 60.96 114.3)
+		(uuid "76137665-789b-44e4-aa40-d0b285a7180a")
 	)
 	(wire
 		(pts
@@ -15244,16 +15441,6 @@
 			(type default)
 		)
 		(uuid "0c1f174a-cd73-419a-9971-5bb827e88c51")
-	)
-	(wire
-		(pts
-			(xy 99.06 134.62) (xy 149.86 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1447b9-649b-4e0a-9978-c701033177f7")
 	)
 	(wire
 		(pts
@@ -15514,16 +15701,6 @@
 			(type default)
 		)
 		(uuid "25ae9bda-1644-4b73-b11d-d8159f133496")
-	)
-	(wire
-		(pts
-			(xy 81.28 114.3) (xy 81.28 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26be3624-a605-4ea3-85ac-6d7f37278482")
 	)
 	(wire
 		(pts
@@ -15984,16 +16161,6 @@
 			(type default)
 		)
 		(uuid "4991d01c-ddfa-4957-93a4-92e2af403969")
-	)
-	(wire
-		(pts
-			(xy 20.32 127) (xy 20.32 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a006ee8-e4c7-4e98-85d6-429a4adb3df5")
 	)
 	(wire
 		(pts
@@ -16777,16 +16944,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 20.32 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b928ebc-dff8-4b89-ba01-d587d38219ab")
-	)
-	(wire
-		(pts
 			(xy 194.31 73.66) (xy 194.31 76.2)
 		)
 		(stroke
@@ -16994,6 +17151,16 @@
 			(type default)
 		)
 		(uuid "9a8a7aec-0572-4914-8dd6-c6df47072115")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b806fb1-8b14-4662-b5c9-a40a3b90f245")
 	)
 	(wire
 		(pts
@@ -18195,8 +18362,30 @@
 		)
 		(uuid "06579060-7ea6-4efc-9759-403f401f7dc4")
 	)
+	(label "GND"
+		(at 60.96 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1273d35c-4bca-48f3-87e0-b36143d0dfe6")
+		(property "Netclass" "power"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(label "VCC"
-		(at 58.42 106.68 90)
+		(at -60.96 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18206,7 +18395,7 @@
 		)
 		(uuid "184659c0-3827-426f-ac61-eb24b5dc1c25")
 		(property "Netclass" "power"
-			(at 59.69 106.68 90)
+			(at -60.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18237,30 +18426,8 @@
 		)
 		(uuid "1fb4d2ce-297e-45ae-a3b4-210508c79afa")
 	)
-	(label "GND"
-		(at 27.94 147.32 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25140b27-2f63-42bb-9c97-92417b549255")
-		(property "Netclass" "power"
-			(at 29.21 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(label "VCC"
-		(at 27.94 106.68 90)
+		(at -91.44 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18270,7 +18437,7 @@
 		)
 		(uuid "2550881d-ef67-4ca5-9ab7-3bab54bbd44f")
 		(property "Netclass" "power"
-			(at 29.21 106.68 90)
+			(at -91.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18291,8 +18458,18 @@
 		)
 		(uuid "2bc6277d-89bb-4066-9eb7-c097ee9b71aa")
 	)
+	(label "COL0"
+		(at 38.1 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e2a0002-7ea4-49cf-83f6-7edcc299a0a9")
+	)
 	(label "VCC"
-		(at 43.18 132.08 90)
+		(at -30.48 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18302,7 +18479,7 @@
 		)
 		(uuid "304bd10d-0f7d-472f-942f-82df98d2638f")
 		(property "Netclass" "power"
-			(at 44.45 132.08 90)
+			(at -30.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18323,8 +18500,18 @@
 		)
 		(uuid "325b6b5c-4c86-4782-afb8-165999f3ceda")
 	)
+	(label "C0R0D"
+		(at 38.1 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33864bf7-0a14-4275-99e5-899b8548e59b")
+	)
 	(label "VCC"
-		(at 73.66 106.68 90)
+		(at 60.96 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18332,9 +18519,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "381d6cae-640d-46c3-b669-2e29b3b14f07")
+		(uuid "3a389eea-7134-4427-add4-427ecbeda7d8")
 		(property "Netclass" "power"
-			(at 74.93 106.68 90)
+			(at 60.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18356,7 +18543,7 @@
 		(uuid "3cebb8ca-b557-4c80-bcaa-980797a397e4")
 	)
 	(label "RGBDIN"
-		(at 20.32 114.3 180)
+		(at -152.4 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18366,23 +18553,23 @@
 		(uuid "3f3333db-4c30-47fe-8932-0b8f8a60033c")
 	)
 	(label "GND"
-		(at 27.94 121.92 270)
+		(at -121.92 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "41485e98-0a03-4894-85a3-bf090e4f0236")
 		(property "Netclass" "power"
-			(at 29.21 121.92 90)
+			(at -121.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18478,28 +18665,6 @@
 			(justify left bottom)
 		)
 		(uuid "5b490d57-138c-4dac-a1ef-42947a8a6db4")
-	)
-	(label "VCC"
-		(at 58.42 132.08 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bdb38eb-41f9-444e-8b43-beebd8c36515")
-		(property "Netclass" "power"
-			(at 59.69 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "GND"
 		(at 26.67 44.45 180)
@@ -18610,45 +18775,23 @@
 		)
 	)
 	(label "GND"
-		(at 58.42 121.92 270)
+		(at -60.96 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6d365170-5ce3-437f-b007-a9e97fde245b")
 		(property "Netclass" "power"
-			(at 59.69 121.92 90)
+			(at -60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "VCC"
-		(at 40.64 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "723f2279-7ba8-4b94-85b9-6ab98b224212")
-		(property "Netclass" "power"
-			(at 40.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18790,6 +18933,28 @@
 		)
 	)
 	(label "GND"
+		(at 30.48 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8978a9b7-c862-4403-9ecf-3056ea4fb286")
+		(property "Netclass" "power"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "GND"
 		(at 62.23 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18891,6 +19056,38 @@
 		)
 		(uuid "b1431f0c-1dac-4685-83af-57ddf3ee9fdf")
 	)
+	(label "COL0"
+		(at 63.5 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5661fc4-30b0-4020-95a0-826910f6dbb2")
+	)
+	(label "GND"
+		(at 0 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9eb3752-68bc-48eb-8118-35f5b3fccef3")
+		(property "Netclass" "power"
+			(at 0 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(label "VCC"
 		(at 62.23 46.99 0)
 		(fields_autoplaced yes)
@@ -18924,6 +19121,28 @@
 		(uuid "c30803e5-9410-4cb0-8cdf-2c69bb989b53")
 	)
 	(label "GND"
+		(at -30.48 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9514bba-cf38-40b9-90ca-9cd15d79e4d3")
+		(property "Netclass" "power"
+			(at -30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "GND"
 		(at 96.52 177.8 0)
 		(effects
 			(font
@@ -18932,28 +19151,6 @@
 			(justify left bottom)
 		)
 		(uuid "d14b96e7-d26f-445a-a9a3-45dea66f2b06")
-	)
-	(label "GND"
-		(at 73.66 121.92 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d16ea96c-01f6-4f4b-a64f-a76bb30deae3")
-		(property "Netclass" "power"
-			(at 74.93 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "ROW1"
 		(at 99.06 83.82 0)
@@ -18975,30 +19172,8 @@
 		)
 		(uuid "d53528be-62ab-48e4-9256-b4bbd6d04a48")
 	)
-	(label "GND"
-		(at 43.18 147.32 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d65f3a6c-fc97-4490-81f3-46f3953d4313")
-		(property "Netclass" "power"
-			(at 44.45 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(label "VCC"
-		(at 27.94 132.08 90)
+		(at 0 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19006,9 +19181,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "de3f1209-c918-4145-88d8-67596f95e39c")
+		(uuid "dbd35956-4d19-41b3-8fbb-9b4a1eb13661")
 		(property "Netclass" "power"
-			(at 29.21 132.08 90)
+			(at 0 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19020,7 +19195,7 @@
 		)
 	)
 	(label "VCC"
-		(at 43.18 106.68 90)
+		(at -121.92 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19028,9 +19203,31 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e0faa47c-a16e-41b6-bdb3-33b01052b774")
+		(uuid "de3f1209-c918-4145-88d8-67596f95e39c")
 		(property "Netclass" "power"
-			(at 44.45 106.68 90)
+			(at -121.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "VCC"
+		(at 30.48 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e026b80e-aca3-4f03-a68d-c8cd1b1d9140")
+		(property "Netclass" "power"
+			(at 30.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19060,6 +19257,16 @@
 			(justify left bottom)
 		)
 		(uuid "e6c631cc-6b25-41a8-852d-36a32c93bc1d")
+	)
+	(label "C0R0D"
+		(at 63.5 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed3b84a6-de54-42f9-88b4-a4518a211e3b")
 	)
 	(label "COL10"
 		(at 26.67 49.53 180)
@@ -19094,45 +19301,23 @@
 		)
 	)
 	(label "GND"
-		(at 58.42 147.32 270)
+		(at -91.44 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
-		)
-		(uuid "f32cc809-cbdf-4736-b420-a633268057ae")
-		(property "Netclass" "power"
-			(at 59.69 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "GND"
-		(at 43.18 121.92 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f9ec9afa-3966-45c5-b380-70037ea7b0ee")
 		(property "Netclass" "power"
-			(at 44.45 121.92 90)
+			(at -91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19156,6 +19341,91 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 50.8 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01563d74-cb92-4907-b369-d247e505ad64")
+		(property "Reference" "S63"
+			(at 50.7984 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 50.7984 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 50.8 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 50.8 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dab3ed2-b130-4568-9c70-d5f31848fe1a")
+		)
+		(pin "2"
+			(uuid "6d44c04e-bc5a-433e-88c3-10a207a8096b")
+		)
+		(pin "4"
+			(uuid "b2ed6c00-4fd1-4acc-aa5e-f97a19038836")
+		)
+		(pin "3"
+			(uuid "c940cc2a-5ce7-4b35-8f56-6828f3328671")
+		)
+		(instances
+			(project ""
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S63")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19362,7 +19632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -19527,7 +19797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 287.02 147.32 0)
 			(effects
 				(font
@@ -19604,7 +19874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 598.17 96.52 0)
 			(effects
 				(font
@@ -19743,8 +20013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 27.94 139.7 0)
+		(lib_id "1655:1655")
+		(at -15.24 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19753,7 +20023,7 @@
 		(fields_autoplaced yes)
 		(uuid "175f1ea8-867d-4d43-b61a-a00d98d57e67")
 		(property "Reference" "D65"
-			(at 39.37 133.2798 0)
+			(at -15.24 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,39 +20031,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 39.37 135.8198 0)
+			(at -15.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 29.21 147.32 0)
+		(property "Footprint" "1655:LED_1655"
+			(at -15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 30.48 149.225 0)
+			(at -15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 27.94 139.7 0)
+			(at -15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at -15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at -15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at -15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at -15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -20003,7 +20312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 375.92 96.52 0)
 			(effects
 				(font
@@ -20256,7 +20565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -20333,7 +20642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 153.67 147.32 0)
 			(effects
 				(font
@@ -20586,7 +20895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 509.27 71.12 0)
 			(effects
 				(font
@@ -20751,7 +21060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 375.92 71.12 0)
 			(effects
 				(font
@@ -20916,7 +21225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 509.27 45.72 0)
 			(effects
 				(font
@@ -20993,7 +21302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 331.47 147.32 0)
 			(effects
 				(font
@@ -21246,7 +21555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 509.27 147.32 0)
 			(effects
 				(font
@@ -21323,7 +21632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 287.02 71.12 0)
 			(effects
 				(font
@@ -21840,7 +22149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -22005,7 +22314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 331.47 45.72 0)
 			(effects
 				(font
@@ -22082,7 +22391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 331.47 71.12 0)
 			(effects
 				(font
@@ -22159,7 +22468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 375.92 45.72 0)
 			(effects
 				(font
@@ -22236,7 +22545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 598.17 121.92 0)
 			(effects
 				(font
@@ -22513,7 +22822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 553.72 45.72 0)
 			(effects
 				(font
@@ -22590,7 +22899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 598.17 147.32 0)
 			(effects
 				(font
@@ -22755,7 +23064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 109.22 147.32 0)
 			(effects
 				(font
@@ -22920,7 +23229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -23085,7 +23394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 553.72 121.92 0)
 			(effects
 				(font
@@ -23250,7 +23559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -23415,7 +23724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 287.02 45.72 0)
 			(effects
 				(font
@@ -23580,7 +23889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 509.27 96.52 0)
 			(effects
 				(font
@@ -23631,8 +23940,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 58.42 139.7 0)
+		(lib_id "1655:1655")
+		(at 45.72 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23641,7 +23950,7 @@
 		(fields_autoplaced yes)
 		(uuid "62592cc4-2c7f-4ac8-b459-9f0617b07de0")
 		(property "Reference" "D67"
-			(at 69.85 133.2798 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23649,39 +23958,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 69.85 135.8198 0)
+			(at 45.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 59.69 147.32 0)
+		(property "Footprint" "1655:LED_1655"
+			(at 45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 60.96 149.225 0)
+			(at 45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 58.42 139.7 0)
+			(at 45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -23733,7 +24081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 375.92 147.32 0)
 			(effects
 				(font
@@ -23953,7 +24301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -24382,7 +24730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 464.82 45.72 0)
 			(effects
 				(font
@@ -24697,8 +25045,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 58.42 114.3 0)
+		(lib_id "1655:1655")
+		(at -76.2 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24707,7 +25055,7 @@
 		(fields_autoplaced yes)
 		(uuid "794271bd-eb09-449a-b39e-e32637760768")
 		(property "Reference" "D63"
-			(at 69.85 107.8798 0)
+			(at -76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24715,39 +25063,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 69.85 110.4198 0)
+			(at -76.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 59.69 121.92 0)
+		(property "Footprint" "1655:LED_1655"
+			(at -76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 60.96 123.825 0)
+			(at -76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 58.42 114.3 0)
+			(at -76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at -76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at -76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at -76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at -76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -24887,7 +25274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 420.37 96.52 0)
 			(effects
 				(font
@@ -24964,7 +25351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 153.67 121.92 0)
 			(effects
 				(font
@@ -25217,7 +25604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 553.72 147.32 0)
 			(effects
 				(font
@@ -25444,8 +25831,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 27.94 114.3 0)
+		(lib_id "1655:1655")
+		(at -137.16 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25454,7 +25841,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8f4f4a-3d44-433f-9ce4-d9feec87b668")
 		(property "Reference" "D61"
-			(at 39.37 107.8798 0)
+			(at -137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25462,39 +25849,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 39.37 110.4198 0)
+			(at -137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 29.21 121.92 0)
+		(property "Footprint" "1655:LED_1655"
+			(at -137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 30.48 123.825 0)
+			(at -137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 27.94 114.3 0)
+			(at -137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at -137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at -137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at -137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at -137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -25634,7 +26060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 153.67 45.72 0)
 			(effects
 				(font
@@ -25711,7 +26137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 464.82 96.52 0)
 			(effects
 				(font
@@ -25876,7 +26302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 553.72 96.52 0)
 			(effects
 				(font
@@ -25953,7 +26379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 331.47 96.52 0)
 			(effects
 				(font
@@ -26030,7 +26456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 553.72 71.12 0)
 			(effects
 				(font
@@ -26195,7 +26621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -26272,7 +26698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 420.37 45.72 0)
 			(effects
 				(font
@@ -26437,7 +26863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -26690,7 +27116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 464.82 71.12 0)
 			(effects
 				(font
@@ -26855,7 +27281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 420.37 121.92 0)
 			(effects
 				(font
@@ -26932,7 +27358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 375.92 121.92 0)
 			(effects
 				(font
@@ -27097,7 +27523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 598.17 45.72 0)
 			(effects
 				(font
@@ -27350,7 +27776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 509.27 121.92 0)
 			(effects
 				(font
@@ -27427,7 +27853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 331.47 121.92 0)
 			(effects
 				(font
@@ -27504,7 +27930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 242.57 96.52 0)
 			(effects
 				(font
@@ -27757,7 +28183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 109.22 96.52 0)
 			(effects
 				(font
@@ -27834,7 +28260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 287.02 96.52 0)
 			(effects
 				(font
@@ -27911,7 +28337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 287.02 121.92 0)
 			(effects
 				(font
@@ -28076,7 +28502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 153.67 71.12 0)
 			(effects
 				(font
@@ -28241,7 +28667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 420.37 71.12 0)
 			(effects
 				(font
@@ -28318,7 +28744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 242.57 45.72 0)
 			(effects
 				(font
@@ -28395,7 +28821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 198.12 121.92 0)
 			(effects
 				(font
@@ -28472,7 +28898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 242.57 71.12 0)
 			(effects
 				(font
@@ -28549,7 +28975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 242.57 121.92 0)
 			(effects
 				(font
@@ -28714,7 +29140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 464.82 147.32 0)
 			(effects
 				(font
@@ -28853,8 +29279,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 43.18 139.7 0)
+		(lib_id "1655:1655")
+		(at 15.24 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28863,7 +29289,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3a0d027-de59-49a8-8eac-c5f214ab4f40")
 		(property "Reference" "D66"
-			(at 54.61 133.2798 0)
+			(at 15.24 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28871,39 +29297,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 54.61 135.8198 0)
+			(at 15.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 44.45 147.32 0)
+		(property "Footprint" "1655:LED_1655"
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 45.72 149.225 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 43.18 139.7 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -28954,7 +29419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -29031,7 +29496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 598.17 71.12 0)
 			(effects
 				(font
@@ -29082,8 +29547,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 43.18 114.3 0)
+		(lib_id "1655:1655")
+		(at -106.68 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29092,7 +29557,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8e15dd6-3fcc-4879-90f4-d38c48a34e06")
 		(property "Reference" "D62"
-			(at 54.61 107.8798 0)
+			(at -106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29100,39 +29565,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 54.61 110.4198 0)
+			(at -106.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 44.45 121.92 0)
+		(property "Footprint" "1655:LED_1655"
+			(at -106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 45.72 123.825 0)
+			(at -106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 43.18 114.3 0)
+			(at -106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at -106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at -106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at -106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at -106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -29184,7 +29688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 464.82 121.92 0)
 			(effects
 				(font
@@ -29411,17 +29915,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 73.66 114.3 0)
+		(lib_id "1655:1655")
+		(at -45.72 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f076e133-f538-4bcc-ac1b-60f100aa92bb")
 		(property "Reference" "D64"
-			(at 85.09 107.8798 0)
+			(at -45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29429,39 +29932,78 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 85.09 110.4198 0)
+			(at -45.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 74.93 121.92 0)
+		(property "Footprint" "1655:LED_1655"
+			(at -45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 76.2 123.825 0)
+			(at -45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 73.66 114.3 0)
+			(at -45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "01"
+			(at -45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at -45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
+			(at -45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at -45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -29777,7 +30319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 242.57 147.32 0)
 			(effects
 				(font
@@ -29942,7 +30484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_FS"
+		(property "Footprint" "lowproswitch:SMT_FS"
 			(at 420.37 147.32 0)
 			(effects
 				(font
