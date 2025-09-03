@@ -15315,11 +15315,11 @@
 		(uuid "309437a3-7b59-4a45-8c8f-d9fd4522faa4")
 	)
 	(no_connect
-		(at 125.73 187.96)
+		(at 113.03 443.23)
 		(uuid "413c8cb7-afc3-42e1-852f-a19d74a6c5bb")
 	)
 	(no_connect
-		(at 60.96 114.3)
+		(at 321.31 180.34)
 		(uuid "76137665-789b-44e4-aa40-d0b285a7180a")
 	)
 	(wire
@@ -17234,7 +17234,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 177.8) (xy 96.52 180.34)
+			(xy 125.73 471.17) (xy 125.73 473.71)
 		)
 		(stroke
 			(width 0)
@@ -17774,7 +17774,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 177.8) (xy 55.88 180.34)
+			(xy 85.09 471.17) (xy 85.09 473.71)
 		)
 		(stroke
 			(width 0)
@@ -18342,6 +18342,66 @@
 		)
 		(uuid "ff31e94c-8143-4055-8e52-d30c5c37295f")
 	)
+	(label "COL7"
+		(at 241.3 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00c8a749-8bd5-4a63-a0cf-12d90c0646b0")
+	)
+	(label "COL6"
+		(at 212.09 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01dff377-16d1-4b3e-80e0-c516df2d4cde")
+	)
+	(label "C10R2D"
+		(at 594.36 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01e21180-3323-41c4-beb0-ff2e93c83146")
+	)
+	(label "COL1"
+		(at 66.04 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03628f03-0241-48c4-840b-32905a18b6e4")
+	)
+	(label "C8R4D"
+		(at 280.67 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03a19b3f-a382-4cc7-a26a-bf528cd2ac43")
+	)
+	(label "RST"
+		(at 116.84 488.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04610d0a-0de2-427c-b803-9ecf22212497")
+	)
 	(label "RGBDIN"
 		(at 26.67 62.23 180)
 		(effects
@@ -18351,6 +18411,16 @@
 			(justify right bottom)
 		)
 		(uuid "04c387c4-eb75-42c3-8439-9ce836d2fe47")
+	)
+	(label "C10R4D"
+		(at 339.09 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05f73f0f-238b-4ec9-bbc3-f8c0ea2ac9ec")
 	)
 	(label "COL0"
 		(at 26.67 64.77 180)
@@ -18362,8 +18432,108 @@
 		)
 		(uuid "06579060-7ea6-4efc-9759-403f401f7dc4")
 	)
+	(label "C8R4D"
+		(at 280.67 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06ad7952-5f2b-4b28-9c97-38b028c1946b")
+	)
+	(label "C4R0D"
+		(at 327.66 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "079dca70-a524-4f32-bb41-7658ff17d2ee")
+	)
+	(label "COL8"
+		(at 270.51 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a23f0d6-3f8b-4e17-99fb-aa9f51bf9ced")
+	)
+	(label "C9R3D"
+		(at 309.88 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a7d19e5-876f-4dec-b8c4-48664cb2ff9e")
+	)
+	(label "COL9"
+		(at 299.72 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e0a1bf0-d423-4909-b41b-ccefb176b0ac")
+	)
+	(label "COL10"
+		(at 328.93 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f0a234b-b25e-4c7e-bf38-cc96dbf55adb")
+	)
+	(label "COL2"
+		(at 95.25 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f171207-727a-4284-ad67-9364a6897d86")
+	)
+	(label "C5R1D"
+		(at 193.04 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1105cb54-e37c-436a-8a64-3a1a55785629")
+	)
+	(label "COL4"
+		(at 153.67 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11184b16-2655-4c33-bba0-6eb05e6b7ab9")
+	)
+	(label "C8R0D"
+		(at 280.67 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1189d502-3457-41d1-a0bf-361ff23f823d")
+	)
 	(label "GND"
-		(at 60.96 119.38 0)
+		(at 321.31 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18373,7 +18543,7 @@
 		)
 		(uuid "1273d35c-4bca-48f3-87e0-b36143d0dfe6")
 		(property "Netclass" "power"
-			(at 60.96 120.65 0)
+			(at 321.31 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18384,8 +18554,78 @@
 			)
 		)
 	)
+	(label "COL5"
+		(at 182.88 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1326226f-a0fb-4822-8469-9ce3942a1e3f")
+	)
+	(label "C4R4D"
+		(at 163.83 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "132d6ce6-02b9-49e4-8f18-cf9025887f51")
+	)
+	(label "COL6"
+		(at 212.09 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13d76302-5b93-494d-9222-efa4de34dab0")
+	)
+	(label "COL0"
+		(at 36.83 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "154a3671-bfd1-4792-ab39-c775aa83b3a2")
+	)
+	(label "C7R0D"
+		(at 461.01 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1628b5b3-e473-4dd0-8f05-a70ba34074c8")
+	)
+	(label "RST"
+		(at 91.44 488.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1716c042-9466-44d9-a77d-aef1d5f063bb")
+	)
+	(label "C9R1D"
+		(at 549.91 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17ecbb73-f033-4630-97ea-edaa164fe86c")
+	)
 	(label "VCC"
-		(at -60.96 109.22 0)
+		(at 199.39 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18395,7 +18635,7 @@
 		)
 		(uuid "184659c0-3827-426f-ac61-eb24b5dc1c25")
 		(property "Netclass" "power"
-			(at -60.96 110.49 0)
+			(at 199.39 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18405,6 +18645,66 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "COL1"
+		(at 66.04 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "187f7fef-5d63-4fc8-8292-8f800279cf5f")
+	)
+	(label "C5R3D"
+		(at 193.04 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "189383b4-ecd7-4729-ae16-4c1682f861cd")
+	)
+	(label "C2R1D"
+		(at 105.41 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18e83b27-6bc0-4b12-9362-9d88bd4c58e4")
+	)
+	(label "COL3"
+		(at 124.46 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19919283-e249-48a6-bb94-042659c3bdd9")
+	)
+	(label "COL10"
+		(at 328.93 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19d24098-1d98-4508-b6cc-651956697eba")
+	)
+	(label "COL3"
+		(at 124.46 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19d8b9ac-7ba1-44dc-9959-3bede644cd32")
 	)
 	(label "ROW3"
 		(at 62.23 52.07 0)
@@ -18416,6 +18716,36 @@
 		)
 		(uuid "1a746e0c-515c-4cf8-8546-c3c381716e13")
 	)
+	(label "C7R4D"
+		(at 251.46 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c01c102-574d-4126-aa55-2a0a4eeace2a")
+	)
+	(label "COL4"
+		(at 153.67 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e1f9e34-76c9-4f13-b32c-b0217ead9f1a")
+	)
+	(label "C7R1D"
+		(at 251.46 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eb79424-935a-4a31-bc2e-6d0d9e4fae36")
+	)
 	(label "COL5"
 		(at 62.23 64.77 0)
 		(effects
@@ -18426,8 +18756,48 @@
 		)
 		(uuid "1fb4d2ce-297e-45ae-a3b4-210508c79afa")
 	)
+	(label "COL11"
+		(at 358.14 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ffa1386-0cfe-4ac0-82d8-c7e8027eda39")
+	)
+	(label "COL4"
+		(at 153.67 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2018cfe3-87a0-4a72-9ec9-c2426c896bd2")
+	)
+	(label "COL0"
+		(at 36.83 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "226d61a9-3fda-490d-aa2b-21db307a228d")
+	)
+	(label "C7R0D"
+		(at 251.46 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2485f926-3af5-415d-803b-a79d9b462991")
+	)
 	(label "VCC"
-		(at -91.44 109.22 0)
+		(at 168.91 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18437,7 +18807,7 @@
 		)
 		(uuid "2550881d-ef67-4ca5-9ab7-3bab54bbd44f")
 		(property "Netclass" "power"
-			(at -91.44 110.49 0)
+			(at 168.91 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18447,6 +18817,118 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "C8R0D"
+		(at 505.46 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25547900-7e01-4c52-9da3-541ce28209bd")
+	)
+	(label "C3R3D"
+		(at 134.62 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25fcc6df-9741-4229-9945-f07fe28ce7e8")
+	)
+	(label "C3R3D"
+		(at 283.21 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2638dd10-57d0-4f49-872b-0a0a34f89b17")
+	)
+	(label "COL8"
+		(at 270.51 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2663df37-cca7-420c-9823-920e23f7b86c")
+	)
+	(label "COL8"
+		(at 270.51 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27528c22-5680-48d0-8219-80ba03db79b6")
+	)
+	(label "COL9"
+		(at 26.67 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "280ce40f-2aa8-4fbd-a410-692b3b328b51")
+		(property "Netclass" "Default"
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "C4R0D"
+		(at 163.83 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "281c9b7f-9368-4ee3-af34-416182cd5138")
+	)
+	(label "COL3"
+		(at 124.46 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28915c63-2239-4064-8857-b77f236838cc")
+	)
+	(label "C1R0D"
+		(at 76.2 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29e892f3-f276-4824-94e5-1fdddecf16a4")
+	)
+	(label "C7R1D"
+		(at 461.01 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aae2f09-af7b-45df-b85b-6cbf32d034cd")
 	)
 	(label "ROW1"
 		(at 62.23 57.15 0)
@@ -18458,18 +18940,88 @@
 		)
 		(uuid "2bc6277d-89bb-4066-9eb7-c097ee9b71aa")
 	)
-	(label "COL0"
-		(at 38.1 251.46 180)
+	(label "COL2"
+		(at 95.25 266.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2e2a0002-7ea4-49cf-83f6-7edcc299a0a9")
+		(uuid "2d376554-b756-4ae5-b794-c283ad90734b")
+	)
+	(label "COL5"
+		(at 182.88 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d6c62ca-3974-4790-b224-6a1054d94aaf")
+	)
+	(label "COL0"
+		(at 36.83 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2db3c4c5-1b87-4bfb-bd7c-22191c4ae470")
+	)
+	(label "COL11"
+		(at 358.14 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e563fe7-3224-45fc-b8a4-d6b2e61b783c")
+	)
+	(label "COL8"
+		(at 270.51 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ea376c7-0735-47aa-b0bb-f8d9a59c2489")
+	)
+	(label "C7R2D"
+		(at 251.46 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fdc5b75-47a8-443f-a71f-2f0ba19529ac")
+	)
+	(label "C0R4D"
+		(at 149.86 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fe5f5ca-f933-4ddc-8d5c-ca923964a4ff")
+	)
+	(label "C11R1D"
+		(at 368.3 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3033078c-1686-4ec9-a11a-ad7d01cbe145")
 	)
 	(label "VCC"
-		(at -30.48 109.22 0)
+		(at 229.87 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18479,7 +19031,7 @@
 		)
 		(uuid "304bd10d-0f7d-472f-942f-82df98d2638f")
 		(property "Netclass" "power"
-			(at -30.48 110.49 0)
+			(at 229.87 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18489,6 +19041,36 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "COL10"
+		(at 328.93 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30d30ebf-ea42-428a-87f8-2b6417503f6e")
+	)
+	(label "C6R0D"
+		(at 222.25 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31462a5e-8702-4187-aecf-387ec16c799c")
+	)
+	(label "C1R2D"
+		(at 76.2 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32064684-6190-4113-953f-f21133e4c6cf")
 	)
 	(label "ROW3"
 		(at 99.06 134.62 0)
@@ -18500,18 +19082,158 @@
 		)
 		(uuid "325b6b5c-4c86-4782-afb8-165999f3ceda")
 	)
-	(label "C0R0D"
-		(at 38.1 261.62 180)
+	(label "C11R0D"
+		(at 368.3 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "328c09e9-1f23-4878-893a-3e81eb0c8a76")
+	)
+	(label "C2R2D"
+		(at 105.41 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32a3ae59-7e87-4a74-a496-d84ccbdcaf3e")
+	)
+	(label "COL6"
+		(at 212.09 361.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "33864bf7-0a14-4275-99e5-899b8548e59b")
+		(uuid "3347e0d3-179d-4876-8303-c5647462388e")
+	)
+	(label "COL9"
+		(at 299.72 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33fd8db1-b5da-4fa9-b4e3-6edc0cb52b90")
+	)
+	(label "C11R2D"
+		(at 368.3 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3425f1fc-c60e-4896-a382-4823c76f1f98")
+	)
+	(label "C6R0D"
+		(at 222.25 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34a7bb56-1bf0-430f-835d-62839ce29117")
+	)
+	(label "C8R3D"
+		(at 505.46 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34aaf1ab-e72c-4c1f-8125-b95891eb0d2b")
+	)
+	(label "C8R4D"
+		(at 505.46 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34cbfedf-01b3-453a-ac0c-4ee03daba903")
+	)
+	(label "COL1"
+		(at 66.04 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35dc32d6-ff6e-4d95-a83b-402c784e5ee7")
+	)
+	(label "C5R3D"
+		(at 193.04 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f51d39-253f-4454-b57a-d7cbb6009d0b")
+	)
+	(label "COL9"
+		(at 299.72 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37aa50ec-5149-4c70-8ed7-d1b3da61f8f9")
+	)
+	(label "COL6"
+		(at 212.09 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37d7f71b-3dab-4b45-b20e-83d63785eea8")
+	)
+	(label "C2R2D"
+		(at 105.41 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38deff45-ef59-4b7e-86db-af240b458499")
+	)
+	(label "COL5"
+		(at 182.88 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3911e7a0-d2d1-4a35-8310-bb737fcb4af6")
+	)
+	(label "COL7"
+		(at 241.3 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "395f9887-5b00-4f6b-ae7c-30bbb714c927")
 	)
 	(label "VCC"
-		(at 60.96 109.22 0)
+		(at 321.31 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18521,7 +19243,7 @@
 		)
 		(uuid "3a389eea-7134-4427-add4-427ecbeda7d8")
 		(property "Netclass" "power"
-			(at 60.96 110.49 0)
+			(at 321.31 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18532,18 +19254,48 @@
 			)
 		)
 	)
-	(label "ROW2"
-		(at 62.23 49.53 0)
+	(label "COL11"
+		(at 358.14 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a42edaf-2770-475e-bf8e-55bb0671bd5b")
+	)
+	(label "C2R2D"
+		(at 238.76 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3cebb8ca-b557-4c80-bcaa-980797a397e4")
+		(uuid "3b35f1d5-192c-40b6-9241-e0393ac92cd1")
+	)
+	(label "C0R1D"
+		(at 46.99 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c771c16-628e-4455-a70d-846b4627b9b9")
+	)
+	(label "C11R3D"
+		(at 638.81 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e78498c-9213-4311-bef5-3152bb176f89")
 	)
 	(label "RGBDIN"
-		(at -152.4 114.3 180)
+		(at 107.95 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18552,8 +19304,48 @@
 		)
 		(uuid "3f3333db-4c30-47fe-8932-0b8f8a60033c")
 	)
+	(label "C9R3D"
+		(at 309.88 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f58d0cc-bfc0-4ab4-943d-e7bae542eccc")
+	)
+	(label "C7R1D"
+		(at 251.46 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "409cc0d9-24c7-479d-8f32-7c094e062d2c")
+	)
+	(label "C1R3D"
+		(at 194.31 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "410f314e-2c3e-4157-a486-61db2e693a6c")
+	)
+	(label "COL3"
+		(at 124.46 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4123dc3c-b499-44d9-b893-525bc7861832")
+	)
 	(label "GND"
-		(at -121.92 119.38 0)
+		(at 138.43 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18563,7 +19355,7 @@
 		)
 		(uuid "41485e98-0a03-4894-85a3-bf090e4f0236")
 		(property "Netclass" "power"
-			(at -121.92 120.65 0)
+			(at 138.43 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18573,6 +19365,46 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "COL7"
+		(at 241.3 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41d1b5f1-ec99-41b2-9f6c-c161c3ea1e86")
+	)
+	(label "C1R4D"
+		(at 76.2 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42cfd3a7-6ddf-4723-9f61-87001636e4a9")
+	)
+	(label "C5R2D"
+		(at 193.04 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4401c1fe-b505-4442-9629-42f2d566ba6a")
+	)
+	(label "COL1"
+		(at 66.04 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4521d772-2bf8-46ad-8fac-6074791559aa")
 	)
 	(label "COL3"
 		(at 26.67 59.69 180)
@@ -18584,6 +19416,36 @@
 		)
 		(uuid "458ee9a9-e30d-45ea-9a20-a8de8a8d27cf")
 	)
+	(label "C4R0D"
+		(at 163.83 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45948d78-8684-4b88-b8be-ece5b3868255")
+	)
+	(label "C9R4D"
+		(at 309.88 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45a6a385-8841-4457-b778-8380dc3f3fce")
+	)
+	(label "C7R0D"
+		(at 251.46 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45daf848-4dc5-41eb-87d7-b71c24a978b0")
+	)
 	(label "COL6"
 		(at 62.23 67.31 0)
 		(effects
@@ -18593,6 +19455,26 @@
 			(justify left bottom)
 		)
 		(uuid "470907a9-40cf-4916-a7cc-cfafc1dbfa87")
+	)
+	(label "C6R2D"
+		(at 416.56 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47803314-9ac1-42b7-b93a-06252d739b9c")
+	)
+	(label "C4R2D"
+		(at 163.83 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48232833-ddca-4ef4-9081-1bff23c0626f")
 	)
 	(label "COL9"
 		(at 26.67 54.61 180)
@@ -18616,15 +19498,135 @@
 			)
 		)
 	)
+	(label "C8R3D"
+		(at 280.67 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4959373d-32af-4b3c-80f3-88318a10ad34")
+	)
 	(label "COL1"
-		(at 26.67 67.31 180)
+		(at 66.04 387.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "548a0708-6677-40cf-a982-8f8d11f1fc92")
+		(uuid "4b390709-bef4-471c-a945-feaafe167ce0")
+	)
+	(label "C2R0D"
+		(at 105.41 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bdb097c-36f6-41ca-83ee-c1cc4adcff71")
+	)
+	(label "COL7"
+		(at 241.3 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c7cc0de-ba22-4595-8e03-169b06b3725c")
+	)
+	(label "C5R4D"
+		(at 193.04 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d681cff-ab29-440e-913c-f3f5115a65ee")
+	)
+	(label "COL4"
+		(at 153.67 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eda49e3-3046-4342-844f-5b2571e00837")
+	)
+	(label "COL7"
+		(at 241.3 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "519181c7-345e-4799-ba1f-f56da6519ad9")
+	)
+	(label "C4R2D"
+		(at 327.66 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52aeae7e-76fe-4ecf-86ed-ed10dbe365ee")
+	)
+	(label "C8R2D"
+		(at 280.67 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5386c261-428e-43f8-95c7-e7e99aa9dd87")
+	)
+	(label "C0R0D"
+		(at 46.99 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53b3f7f3-7e5b-4109-9800-32704e2e335a")
+	)
+	(label "COL0"
+		(at 36.83 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53db6037-02cc-46f7-8f08-1f73d13d125b")
+	)
+	(label "COL1"
+		(at 66.04 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53f97042-44f5-4f3b-b9f5-fb207b8897a7")
+	)
+	(label "COL8"
+		(at 270.51 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54bc1b85-1847-457f-9080-07aad6a68bc0")
 	)
 	(label "COL5"
 		(at 331.47 31.75 0)
@@ -18646,6 +19648,46 @@
 		)
 		(uuid "55dd6de1-2d5f-4a4c-9bca-f7a26f69b123")
 	)
+	(label "C8R2D"
+		(at 280.67 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "560f4f14-3327-44b0-b22e-9f261cc5d79e")
+	)
+	(label "C1R0D"
+		(at 76.2 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "561e4fac-ddca-4d35-88a2-c10215e49039")
+	)
+	(label "C10R1D"
+		(at 594.36 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "572ead5f-b04d-44ff-8fb0-e959000bcb4e")
+	)
+	(label "C5R1D"
+		(at 372.11 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58763a27-e0c1-4fd4-be71-26e44fa7abdc")
+	)
 	(label "COL2"
 		(at 62.23 59.69 0)
 		(effects
@@ -18656,6 +19698,26 @@
 		)
 		(uuid "5949a0bc-893d-487b-8d9b-c38ed27c798f")
 	)
+	(label "C9R3D"
+		(at 549.91 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59528191-3186-47cc-8b1e-7720ca509615")
+	)
+	(label "C2R3D"
+		(at 238.76 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a4ca58e-f04e-4cf4-b135-dbc05ac4a42c")
+	)
 	(label "RST"
 		(at 62.23 44.45 0)
 		(effects
@@ -18665,6 +19727,16 @@
 			(justify left bottom)
 		)
 		(uuid "5b490d57-138c-4dac-a1ef-42947a8a6db4")
+	)
+	(label "C5R2D"
+		(at 372.11 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bc73c1f-fa26-493f-ab7d-61073cb97d34")
 	)
 	(label "GND"
 		(at 26.67 44.45 180)
@@ -18688,6 +19760,116 @@
 			)
 		)
 	)
+	(label "C1R3D"
+		(at 76.2 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e45d63f-21ab-4fe7-b116-f9423a938b7f")
+	)
+	(label "COL10"
+		(at 328.93 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f0102a2-a293-4b00-a60d-4f4af51f3d69")
+	)
+	(label "COL3"
+		(at 124.46 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fdb6ed5-c554-40a8-b79a-dcf939c5d469")
+	)
+	(label "C11R3D"
+		(at 368.3 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6041f429-684c-4902-ba99-7a3fa3a18850")
+	)
+	(label "COL0"
+		(at 36.83 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60d03396-9c53-437b-a3ee-bd18909ee7ea")
+	)
+	(label "C0R3D"
+		(at 149.86 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6248ed21-06db-4855-bea3-3501f0ad3890")
+	)
+	(label "C0R2D"
+		(at 46.99 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62a505ec-dbc1-48f2-a793-562cb659b721")
+	)
+	(label "C7R2D"
+		(at 251.46 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "639ca367-e8fd-43a5-aea2-5d936fe9b843")
+	)
+	(label "C6R4D"
+		(at 416.56 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63cec04c-e201-432a-8e29-2b0910394d68")
+	)
+	(label "C11R2D"
+		(at 368.3 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "656a7832-cf3c-444d-b9de-28d4b319b810")
+	)
+	(label "C10R4D"
+		(at 339.09 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6652d5c8-a8d1-4f7a-bc44-75da08520d18")
+	)
 	(label "BATP"
 		(at 20.32 180.34 180)
 		(fields_autoplaced yes)
@@ -18710,8 +19892,18 @@
 			)
 		)
 	)
+	(label "C6R3D"
+		(at 416.56 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d7ddb8-d3e6-486b-bbb4-8dd9ab33f6d0")
+	)
 	(label "CHARGE+"
-		(at 125.73 185.42 0)
+		(at 113.03 440.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18721,7 +19913,7 @@
 		)
 		(uuid "6727fe02-46c3-4f2d-8cfa-a222c5c4acac")
 		(property "Netclass" "power"
-			(at 125.73 186.69 0)
+			(at 113.03 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18731,6 +19923,36 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "COL10"
+		(at 328.93 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67858caa-ac1d-4cf2-a481-0c6c11dbc9a5")
+	)
+	(label "C11R4D"
+		(at 368.3 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67ead437-253c-4235-8edf-90c69cb6c37b")
+	)
+	(label "C7R2D"
+		(at 461.01 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "688af908-8b4a-41ad-a8b0-318a9b87c72e")
 	)
 	(label "ROW4"
 		(at 99.06 160.02 0)
@@ -18751,6 +19973,36 @@
 			(justify left bottom)
 		)
 		(uuid "6a460ea6-4a74-4733-949e-8779bff0dcf6")
+	)
+	(label "COL7"
+		(at 241.3 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a56049d-17b3-4802-a278-9dfae57636c0")
+	)
+	(label "COL9"
+		(at 299.72 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6aade56c-c188-4895-b46d-4ca5548d1cc3")
+	)
+	(label "COL2"
+		(at 95.25 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b5d9f6d-d2cf-42c6-a864-8a80b27277b2")
 	)
 	(label "ROW4"
 		(at 26.67 41.91 180)
@@ -18775,7 +20027,7 @@
 		)
 	)
 	(label "GND"
-		(at -60.96 119.38 0)
+		(at 199.39 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18785,7 +20037,7 @@
 		)
 		(uuid "6d365170-5ce3-437f-b007-a9e97fde245b")
 		(property "Netclass" "power"
-			(at -60.96 120.65 0)
+			(at 199.39 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18796,6 +20048,46 @@
 			)
 		)
 	)
+	(label "C0R1D"
+		(at 149.86 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f3f867c-e158-4231-9060-4ad5ee7ce501")
+	)
+	(label "C5R0D"
+		(at 193.04 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70abd978-3b92-425b-ba7b-ce830e34a514")
+	)
+	(label "C3R2D"
+		(at 283.21 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "724ea709-aa26-42ce-9fa9-c59cfd4ab6ee")
+	)
+	(label "COL10"
+		(at 328.93 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72821197-f617-4fbb-a781-6f78aebb1572")
+	)
 	(label "COL6"
 		(at 375.92 31.75 0)
 		(effects
@@ -18805,6 +20097,56 @@
 			(justify left bottom)
 		)
 		(uuid "73586fba-eb63-47fb-97be-c589702e5fb7")
+	)
+	(label "C9R0D"
+		(at 309.88 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7404915e-f8af-4573-83a1-41109aa17ee0")
+	)
+	(label "COL7"
+		(at 241.3 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "744b0bee-9fff-4253-9850-676d81907e0a")
+	)
+	(label "C0R4D"
+		(at 46.99 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "744b7478-2625-4ed7-a208-efd44ecf157e")
+	)
+	(label "C10R0D"
+		(at 339.09 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75dac74f-0749-406a-afab-3f78ef9db6c5")
+	)
+	(label "C2R3D"
+		(at 105.41 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "760d752f-f009-460c-984d-c856cf108402")
 	)
 	(label "COL2"
 		(at 198.12 31.75 0)
@@ -18826,6 +20168,36 @@
 		)
 		(uuid "76e6ab93-82c8-4ba9-87b6-df598c97c2a7")
 	)
+	(label "C10R1D"
+		(at 339.09 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7741e40c-e440-4a7b-bac2-f1006bc0add6")
+	)
+	(label "C11R1D"
+		(at 368.3 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "783feccf-152f-4f4d-9d94-2ae6c593285c")
+	)
+	(label "COL2"
+		(at 95.25 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7870e666-b6f8-4468-8784-571123eaf0c2")
+	)
 	(label "COL11"
 		(at 598.17 31.75 0)
 		(effects
@@ -18835,6 +20207,56 @@
 			(justify left bottom)
 		)
 		(uuid "79c07baf-79af-4b09-bf15-098f6304afb5")
+	)
+	(label "C3R4D"
+		(at 134.62 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79df72cd-8702-4e0d-8ea5-d1287e4b4028")
+	)
+	(label "COL0"
+		(at 36.83 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a653810-719b-420c-a8ea-fa7f02a82f9a")
+	)
+	(label "COL8"
+		(at 270.51 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c3ef7dd-b97b-4bf8-a9da-b933b09332f2")
+	)
+	(label "COL3"
+		(at 124.46 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7caf532a-2286-49ed-a4f4-1735539296a1")
+	)
+	(label "C4R1D"
+		(at 163.83 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cb41db8-d828-402e-812f-68f0855b7b0f")
 	)
 	(label "GND"
 		(at 81.28 96.52 0)
@@ -18858,6 +20280,36 @@
 			)
 		)
 	)
+	(label "C9R2D"
+		(at 549.91 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d904e98-83f4-49e0-95a1-cf539b2811af")
+	)
+	(label "COL11"
+		(at 358.14 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7daf91a1-2fe7-4ad4-9c87-9c9b68e0fd4d")
+	)
+	(label "C8R1D"
+		(at 505.46 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7debb536-f95f-493f-b23d-1a4573d72973")
+	)
 	(label "COL11"
 		(at 26.67 39.37 180)
 		(effects
@@ -18867,6 +20319,26 @@
 			(justify right bottom)
 		)
 		(uuid "806a751d-0eb6-43ef-baa4-b195d9c17c31")
+	)
+	(label "COL5"
+		(at 182.88 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80f61a2d-ab6a-4fde-88cb-d488c64a04cb")
+	)
+	(label "COL1"
+		(at 66.04 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "810990ad-f833-41cc-abb7-4e3342b5460e")
 	)
 	(label "ROW0"
 		(at 62.23 54.61 0)
@@ -18878,8 +20350,18 @@
 		)
 		(uuid "810b3f16-7cbb-4432-a7b7-3671c31888ed")
 	)
+	(label "C0R1D"
+		(at 46.99 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "816b9e4a-0345-4d96-9296-dc8097ca02db")
+	)
 	(label "BATP"
-		(at 125.73 180.34 0)
+		(at 113.03 435.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18889,7 +20371,7 @@
 		)
 		(uuid "819751a7-0eaf-4656-89a2-cd153e0dd7c8")
 		(property "Netclass" "power"
-			(at 125.73 181.61 0)
+			(at 113.03 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18900,8 +20382,28 @@
 			)
 		)
 	)
+	(label "COL10"
+		(at 62.23 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81a03126-eed6-4cd7-9755-be969ab992cc")
+	)
+	(label "COL11"
+		(at 358.14 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "820593f1-cb9f-4341-8ba3-63b72a6a79f1")
+	)
 	(label "RST"
-		(at 55.88 177.8 180)
+		(at 85.09 471.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18909,6 +20411,26 @@
 			(justify right bottom)
 		)
 		(uuid "8267b2b3-2a89-4d77-80fa-9f70e9cb465c")
+	)
+	(label "C6R3D"
+		(at 222.25 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "836a92a4-54fa-4209-8a6d-ddd7125593b9")
+	)
+	(label "C4R3D"
+		(at 327.66 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "848600b6-988b-40ac-8692-dd1400160200")
 	)
 	(label "CHARGE+"
 		(at 62.23 39.37 0)
@@ -18932,8 +20454,78 @@
 			)
 		)
 	)
+	(label "C3R4D"
+		(at 283.21 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86648ae8-25f6-4354-8a7b-8848b8f53822")
+	)
+	(label "COL4"
+		(at 153.67 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86f5cc65-2423-44c3-a40e-ba5373f0cac6")
+	)
+	(label "C7R3D"
+		(at 461.01 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8797ac1c-3c68-4114-8cdd-d676d6426004")
+	)
+	(label "C8R2D"
+		(at 505.46 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87aebb3a-7ef3-4d57-a048-8f4d465885c1")
+	)
+	(label "C9R2D"
+		(at 309.88 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8868a175-21d6-40a8-8542-c3b309575fde")
+	)
+	(label "COL5"
+		(at 182.88 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "889cfb3f-b879-49d7-9e61-125081722e66")
+	)
+	(label "COL7"
+		(at 241.3 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88b90496-40da-4f35-a4ec-e501d192cdd7")
+	)
 	(label "GND"
-		(at 30.48 119.38 0)
+		(at 290.83 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18943,7 +20535,7 @@
 		)
 		(uuid "8978a9b7-c862-4403-9ecf-3056ea4fb286")
 		(property "Netclass" "power"
-			(at 30.48 120.65 0)
+			(at 290.83 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18976,6 +20568,96 @@
 			)
 		)
 	)
+	(label "C11R0D"
+		(at 638.81 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a511bae-76ac-4104-8575-683cf381eb47")
+	)
+	(label "C11R3D"
+		(at 368.3 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b5d533f-d97b-4add-9f55-8a480c5e4932")
+	)
+	(label "C1R4D"
+		(at 194.31 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf604a8-06b4-49e8-8db9-7b37c003de8c")
+	)
+	(label "C10R0D"
+		(at 594.36 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d4b52ae-1160-45c0-96b4-e0eff50e1dfe")
+	)
+	(label "C4R3D"
+		(at 163.83 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8db806a3-eac1-4b08-b9d4-5b39435e3ac6")
+	)
+	(label "C11R2D"
+		(at 638.81 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8eae88da-24b9-489c-82bc-03f6600f5c5d")
+	)
+	(label "C1R1D"
+		(at 194.31 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8edb10a0-3200-45db-abba-5030f76b9821")
+	)
+	(label "C9R2D"
+		(at 309.88 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ff92e75-bd6a-4733-b63c-ff4392e05038")
+	)
+	(label "C7R4D"
+		(at 461.01 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ffbe845-4e66-4594-a99f-58248d5d534a")
+	)
 	(label "ROW0"
 		(at 99.06 58.42 0)
 		(effects
@@ -18985,6 +20667,106 @@
 			(justify left bottom)
 		)
 		(uuid "90806ee8-d257-4e7c-99d5-269770a34881")
+	)
+	(label "COL8"
+		(at 270.51 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "923c39f6-7250-4004-8c07-b65ffdea824d")
+	)
+	(label "C1R4D"
+		(at 76.2 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94531ad2-9797-4fe9-991d-4939f4b11ab4")
+	)
+	(label "C1R2D"
+		(at 194.31 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94995dd4-658b-4c53-8c69-735f0704e9fb")
+	)
+	(label "C2R4D"
+		(at 105.41 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95185f4d-0430-4023-8d5d-5c4bd29255ba")
+	)
+	(label "C0R3D"
+		(at 46.99 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "955fa944-dc2b-4d84-b555-ec6dfdf1b64a")
+	)
+	(label "COL4"
+		(at 153.67 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9587df50-b141-49c5-be5e-4557f9caeadc")
+	)
+	(label "COL7"
+		(at 241.3 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95e6ffe8-70e6-470c-9956-dcfc21a59d01")
+	)
+	(label "C3R1D"
+		(at 134.62 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96176ca4-6fe8-4f4c-bfda-1da6c32b9442")
+	)
+	(label "COL10"
+		(at 328.93 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "965314fe-a523-4110-ad9a-d1219916e0d9")
+	)
+	(label "C1R3D"
+		(at 76.2 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9728b62d-c182-4a3c-992b-4cf17f361a71")
 	)
 	(label "C0R0D"
 		(at 149.86 45.72 90)
@@ -18996,6 +20778,26 @@
 		)
 		(uuid "9802eeff-24e7-4641-88cd-1b83f19f3073")
 	)
+	(label "COL10"
+		(at 328.93 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9865093d-723c-4149-a730-fa1ca1782c88")
+	)
+	(label "C3R0D"
+		(at 283.21 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "987e8a9e-1616-41db-b31e-406909343000")
+	)
 	(label "COL7"
 		(at 26.67 52.07 180)
 		(effects
@@ -19005,6 +20807,186 @@
 			(justify right bottom)
 		)
 		(uuid "9946f407-9144-46a7-bfbe-25441724a807")
+	)
+	(label "COL5"
+		(at 182.88 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99676143-5508-4335-b6d9-155cb2544ed3")
+	)
+	(label "C6R2D"
+		(at 222.25 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99a4b9ec-fad1-415b-a9ae-46c8bc74e755")
+	)
+	(label "COL6"
+		(at 212.09 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99de4533-bd47-4c43-80b3-67f264acf70e")
+	)
+	(label "C10R2D"
+		(at 339.09 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d8ed726-6557-4464-9c15-06718ffa8116")
+	)
+	(label "COL4"
+		(at 153.67 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dadc75d-0961-426b-9c51-e98e42372a89")
+	)
+	(label "C10R3D"
+		(at 594.36 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dbefc76-4769-44c1-bad0-0d879f449c63")
+	)
+	(label "COL2"
+		(at 95.25 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eca4563-ca2d-4317-b3f4-5cf7244df885")
+	)
+	(label "COL4"
+		(at 153.67 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f7a21ff-841e-4841-8d7e-4cc721c98728")
+	)
+	(label "COL6"
+		(at 212.09 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fb12077-6491-4904-b28b-3b51611f3f47")
+	)
+	(label "C10R1D"
+		(at 339.09 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fbeef4a-8666-48e4-a4d1-bfaf9dada118")
+	)
+	(label "COL2"
+		(at 95.25 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a192c222-3757-4341-95a4-f58fb25851f3")
+	)
+	(label "C6R4D"
+		(at 222.25 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27e28e7-0d40-4dca-8ab6-26a2cbb7f1c6")
+	)
+	(label "COL10"
+		(at 328.93 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a36c1093-7dd7-469a-9d5a-c108d6390452")
+	)
+	(label "C5R3D"
+		(at 372.11 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3a7462d-103c-4034-ad10-47aa578f07ac")
+	)
+	(label "C1R0D"
+		(at 194.31 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4efb951-eba8-4923-b96a-8d2d248ec89b")
+	)
+	(label "C10R3D"
+		(at 339.09 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4fb0f3d-10e7-426f-9f98-ee1901e09211")
+	)
+	(label "C11R1D"
+		(at 638.81 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a53adf7f-17f5-440c-aa5d-d54d9770c8a1")
+	)
+	(label "COL3"
+		(at 124.46 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5cb1356-53f6-4cb5-9cbc-d7c29cce768e")
 	)
 	(label "COL8"
 		(at 464.82 31.75 0)
@@ -19016,6 +20998,16 @@
 		)
 		(uuid "a6eb2085-b204-4a40-bc63-5779b430a10f")
 	)
+	(label "C2R0D"
+		(at 238.76 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a700d0c6-3666-4403-bdb9-ec03c52c9978")
+	)
 	(label "COL8"
 		(at 26.67 57.15 180)
 		(effects
@@ -19025,6 +21017,26 @@
 			(justify right bottom)
 		)
 		(uuid "a707f895-d9f3-49b5-8600-a6916b99b8f5")
+	)
+	(label "COL8"
+		(at 270.51 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a71dd8ee-d643-4d98-98b5-1cbd3eeda9d5")
+	)
+	(label "C6R1D"
+		(at 222.25 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7f8166b-153c-4fcb-8a12-48e2a406983f")
 	)
 	(label "COL10"
 		(at 553.72 31.75 0)
@@ -19036,6 +21048,16 @@
 		)
 		(uuid "a929bc1c-4b52-4938-8e42-2a2a3d645864")
 	)
+	(label "COL6"
+		(at 212.09 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a93dcb4c-c27f-4216-9eaa-6b4f37589b1c")
+	)
 	(label "COL0"
 		(at 109.22 31.75 0)
 		(effects
@@ -19045,6 +21067,86 @@
 			(justify left bottom)
 		)
 		(uuid "aa11f1da-a864-4dcc-b1e1-64f2184b0f44")
+	)
+	(label "COL11"
+		(at 358.14 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa16cba1-a6f4-43e2-befa-dd96bea3e814")
+	)
+	(label "COL6"
+		(at 212.09 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab41d79d-ab6f-4da9-a04a-679ebc0e0c15")
+	)
+	(label "COL2"
+		(at 95.25 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad199b7f-d8b6-40e8-a55c-3a44fa36c05e")
+	)
+	(label "COL9"
+		(at 299.72 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aec0cb06-8a35-4336-9752-025961faa50e")
+	)
+	(label "C3R0D"
+		(at 134.62 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aec2f603-065a-4ad3-9b62-19ba82c2d6a7")
+	)
+	(label "C2R4D"
+		(at 238.76 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af2945cd-8b98-43bd-8e03-77ec4fdba512")
+	)
+	(label "COL0"
+		(at 36.83 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af32377b-9f98-4f29-9f82-d15eb1434fff")
+	)
+	(label "COL11"
+		(at 358.14 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0fe3232-5078-4210-bff8-e293610e1264")
 	)
 	(label "COL3"
 		(at 242.57 31.75 0)
@@ -19056,18 +21158,48 @@
 		)
 		(uuid "b1431f0c-1dac-4685-83af-57ddf3ee9fdf")
 	)
-	(label "COL0"
-		(at 63.5 251.46 0)
+	(label "COL11"
+		(at 358.14 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1977beb-495d-4743-9255-2cc89e9bdc8e")
+	)
+	(label "C2R1D"
+		(at 238.76 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b5661fc4-30b0-4020-95a0-826910f6dbb2")
+		(uuid "b500e6c9-d6e0-470b-8f8b-7432b61c75a6")
+	)
+	(label "COL9"
+		(at 299.72 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6179eda-091f-4f5e-96fa-2d702049b975")
+	)
+	(label "C9R4D"
+		(at 549.91 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6ec8949-e58f-48ab-81f0-ee63da8a4498")
 	)
 	(label "GND"
-		(at 0 119.38 0)
+		(at 260.35 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19077,7 +21209,7 @@
 		)
 		(uuid "b9eb3752-68bc-48eb-8118-35f5b3fccef3")
 		(property "Netclass" "power"
-			(at 0 120.65 0)
+			(at 260.35 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,6 +21219,66 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "COL2"
+		(at 95.25 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "baab836c-83e0-4348-b4ce-9c1965be8eaf")
+	)
+	(label "C0R0D"
+		(at 46.99 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb6e43fc-5731-47e5-b891-7e210d75a5e0")
+	)
+	(label "COL1"
+		(at 66.04 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be3a3530-16c1-4755-a92d-04af171a665c")
+	)
+	(label "COL5"
+		(at 182.88 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be5d9ea8-98e2-446c-99a8-9dd335a01e42")
+	)
+	(label "C2R4D"
+		(at 105.41 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf21d0e7-2c19-4be0-a79a-e8871d5a96ca")
+	)
+	(label "COL4"
+		(at 153.67 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf4e773d-714d-461c-b612-b701ea3f14c8")
 	)
 	(label "VCC"
 		(at 62.23 46.99 0)
@@ -19110,6 +21302,36 @@
 			)
 		)
 	)
+	(label "C9R0D"
+		(at 549.91 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c05eca52-1129-4b49-94ff-9b7c8eb39dc6")
+	)
+	(label "C1R2D"
+		(at 76.2 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c13c8a52-405f-4c88-b4f8-be6b28097e0e")
+	)
+	(label "C5R4D"
+		(at 372.11 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2902705-b32f-4dcf-8e3f-3169088b5fff")
+	)
 	(label "COL7"
 		(at 420.37 31.75 0)
 		(effects
@@ -19120,8 +21342,68 @@
 		)
 		(uuid "c30803e5-9410-4cb0-8cdf-2c69bb989b53")
 	)
+	(label "C2R1D"
+		(at 105.41 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4a7f344-7cfa-499f-a45d-c0438a422f76")
+	)
+	(label "C10R4D"
+		(at 594.36 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c69a4f70-24c5-4c64-853f-c73235ab2024")
+	)
 	(label "GND"
-		(at -30.48 119.38 0)
+		(at 116.84 499.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6da0a46-b064-4af6-ab79-5320409b2e53")
+	)
+	(label "C2R3D"
+		(at 105.41 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c72c460f-fa47-4d9d-85ea-7e5f453d5356")
+	)
+	(label "C6R4D"
+		(at 222.25 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7486043-aec3-4cba-bab2-c0133c49fa48")
+	)
+	(label "C0R2D"
+		(at 46.99 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8e37dfe-1f3e-4ac9-ac12-1259408ad2b1")
+	)
+	(label "GND"
+		(at 229.87 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19131,7 +21413,7 @@
 		)
 		(uuid "c9514bba-cf38-40b9-90ca-9cd15d79e4d3")
 		(property "Netclass" "power"
-			(at -30.48 120.65 0)
+			(at 229.87 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19142,8 +21424,118 @@
 			)
 		)
 	)
+	(label "COL5"
+		(at 182.88 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c95826ae-2a04-49ae-8391-eaef88b0d058")
+	)
+	(label "COL7"
+		(at 241.3 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c98f7eb7-3631-4ae6-8feb-c6d2651a4469")
+	)
+	(label "C9R4D"
+		(at 309.88 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca37d713-1dcc-46a5-af6a-6c2bbf6d0499")
+	)
+	(label "C3R0D"
+		(at 134.62 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb0f9285-8cf2-40ec-ab1e-6dd7901324db")
+	)
+	(label "C11R4D"
+		(at 638.81 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbc67918-a718-4a0d-81b9-09e6124fab9e")
+	)
+	(label "C9R1D"
+		(at 309.88 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce0b3f9b-873a-4815-a1b0-7d21c3707eb3")
+	)
+	(label "C5R2D"
+		(at 193.04 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce35665a-2fb8-402b-a5a9-f5eb5b1f1c97")
+	)
+	(label "C10R3D"
+		(at 339.09 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf653ae3-4b39-4753-be3a-c3e2f2236c9e")
+	)
 	(label "GND"
-		(at 96.52 177.8 0)
+		(at 91.44 499.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf9b7083-3631-4f2c-a20e-950690e65009")
+	)
+	(label "C3R1D"
+		(at 134.62 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfb7661a-9d44-4406-8405-ccf6876ea558")
+	)
+	(label "C7R4D"
+		(at 251.46 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d04457e8-f1fc-490f-a307-b09a8bf5db19")
+	)
+	(label "GND"
+		(at 125.73 471.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19151,6 +21543,46 @@
 			(justify left bottom)
 		)
 		(uuid "d14b96e7-d26f-445a-a9a3-45dea66f2b06")
+	)
+	(label "COL6"
+		(at 212.09 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d17a7ab7-3dbe-4651-bb9d-f0880faed166")
+	)
+	(label "COL9"
+		(at 299.72 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1813c8e-d4a7-486c-99b3-614b548adf5e")
+	)
+	(label "COL11"
+		(at 358.14 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d193f5e0-85de-487c-b545-4f703d38630f")
+	)
+	(label "C4R1D"
+		(at 163.83 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2008ac0-f843-42e6-8c3e-09d3fad8abbf")
 	)
 	(label "ROW1"
 		(at 99.06 83.82 0)
@@ -19162,6 +21594,56 @@
 		)
 		(uuid "d22822ac-64b3-4521-b70a-adedb5ad7092")
 	)
+	(label "C10R0D"
+		(at 339.09 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d25e3c6f-cb70-4135-98ec-6931573e40b2")
+	)
+	(label "COL8"
+		(at 270.51 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2683e5d-495c-42d4-9452-14088255e5f6")
+	)
+	(label "C5R0D"
+		(at 193.04 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4592eeb-c833-4d0a-a994-913ae4c82820")
+	)
+	(label "C0R3D"
+		(at 46.99 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d45e6664-8e54-4244-8fa3-799fe362ef2e")
+	)
+	(label "COL8"
+		(at 270.51 356.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4a29c61-a72b-449f-b6f1-47c1dc62a572")
+	)
 	(label "ROW2"
 		(at 99.06 109.22 0)
 		(effects
@@ -19172,8 +21654,78 @@
 		)
 		(uuid "d53528be-62ab-48e4-9256-b4bbd6d04a48")
 	)
+	(label "C9R0D"
+		(at 309.88 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5c8d095-0dd0-4457-a054-8e4a729e203f")
+	)
+	(label "COL0"
+		(at 36.83 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6631f82-4bbd-4ee7-b161-172cf24ddec6")
+	)
+	(label "C5R0D"
+		(at 372.11 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d88eda6e-c9a4-412b-9eed-ed33b045ef4c")
+	)
+	(label "COL0"
+		(at 36.83 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8a065be-35b0-41ac-bba6-e10ea0bf13a4")
+	)
+	(label "C3R1D"
+		(at 283.21 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8cdcfd6-2b95-4acd-b083-b0cd1fc37343")
+	)
+	(label "C10R2D"
+		(at 339.09 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daac201c-7163-4c7c-8e6f-5022f55e1ee5")
+	)
+	(label "C3R3D"
+		(at 134.62 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db76c158-d647-4a0a-81f0-f62376ddd9ee")
+	)
 	(label "VCC"
-		(at 0 109.22 0)
+		(at 260.35 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19183,7 +21735,7 @@
 		)
 		(uuid "dbd35956-4d19-41b3-8fbb-9b4a1eb13661")
 		(property "Netclass" "power"
-			(at 0 110.49 0)
+			(at 260.35 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19194,8 +21746,38 @@
 			)
 		)
 	)
+	(label "COL3"
+		(at 124.46 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbdd4f24-96a5-45ff-9e9e-a76e2ad578fd")
+	)
+	(label "C5R1D"
+		(at 193.04 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcbe98c5-d8e9-4dde-9588-8b9fde80ff19")
+	)
+	(label "COL11"
+		(at 358.14 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd5952eb-90e9-46a1-b24c-83f00bab46a6")
+	)
 	(label "VCC"
-		(at -121.92 109.22 0)
+		(at 138.43 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19205,7 +21787,7 @@
 		)
 		(uuid "de3f1209-c918-4145-88d8-67596f95e39c")
 		(property "Netclass" "power"
-			(at -121.92 110.49 0)
+			(at 138.43 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19216,8 +21798,18 @@
 			)
 		)
 	)
+	(label "COL2"
+		(at 95.25 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de645fbb-f5aa-4bfb-ad08-c21df0b7c5b5")
+	)
 	(label "VCC"
-		(at 30.48 109.22 0)
+		(at 290.83 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19227,7 +21819,7 @@
 		)
 		(uuid "e026b80e-aca3-4f03-a68d-c8cd1b1d9140")
 		(property "Netclass" "power"
-			(at 30.48 110.49 0)
+			(at 290.83 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,6 +21829,36 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "C6R1D"
+		(at 416.56 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f786e4-4678-45c1-9984-bbe7d1306883")
+	)
+	(label "C8R0D"
+		(at 280.67 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1d142d9-0e2d-4686-9105-0d6af89d9041")
+	)
+	(label "C8R1D"
+		(at 280.67 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3a10c31-8101-47c5-a18b-70a7dfd5faba")
 	)
 	(label "COL4"
 		(at 287.02 31.75 0)
@@ -19248,6 +21870,46 @@
 		)
 		(uuid "e4725036-0d3b-44c8-a4f3-295d901f55cb")
 	)
+	(label "COL0"
+		(at 36.83 361.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e55f426c-6483-4dc9-853f-134cca254d12")
+	)
+	(label "C3R2D"
+		(at 134.62 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5e1044c-297c-463c-b14a-e070f271e3c7")
+	)
+	(label "C7R3D"
+		(at 251.46 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e638044d-bb7d-4d19-a420-dc56d83333b2")
+	)
+	(label "COL9"
+		(at 299.72 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6475b77-e781-4018-8103-88d0e2ec8626")
+	)
 	(label "COL4"
 		(at 62.23 62.23 0)
 		(effects
@@ -19258,15 +21920,175 @@
 		)
 		(uuid "e6c631cc-6b25-41a8-852d-36a32c93bc1d")
 	)
-	(label "C0R0D"
-		(at 63.5 261.62 0)
+	(label "C8R3D"
+		(at 280.67 356.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ed3b84a6-de54-42f9-88b4-a4518a211e3b")
+		(uuid "e713dbe1-d9d2-408f-bb28-7cfc2a8545ad")
+	)
+	(label "C1R1D"
+		(at 76.2 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e747a8e4-b1fa-4b04-bc6b-3c3b319440ad")
+	)
+	(label "COL9"
+		(at 299.72 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e77d92b9-6c8e-4d8b-bc87-3a166cf3d95f")
+	)
+	(label "C4R3D"
+		(at 163.83 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e833d544-580b-4522-8d00-a40e8a41961c")
+	)
+	(label "C6R2D"
+		(at 222.25 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e868cc7a-eab6-437f-ba8e-e5aadc2fa7e0")
+	)
+	(label "COL1"
+		(at 66.04 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e86d8b25-6ca8-40c8-b557-acd3de69137e")
+	)
+	(label "COL2"
+		(at 95.25 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9d341be-8558-4e62-98ee-2a4d7229faea")
+	)
+	(label "C0R4D"
+		(at 46.99 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea472cfe-7ecb-40f8-bda5-e854ed184a15")
+	)
+	(label "C1R1D"
+		(at 76.2 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea677940-24df-42c3-8a41-f0ff496583d1")
+	)
+	(label "COL10"
+		(at 328.93 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea6e922b-0b85-4411-a881-a71367f10744")
+	)
+	(label "COL3"
+		(at 124.46 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea7d826e-4872-4314-b361-b1befe05c3a8")
+	)
+	(label "C4R4D"
+		(at 327.66 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaf550f7-0d82-461e-a3d7-3b378241412d")
+	)
+	(label "C6R0D"
+		(at 416.56 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb93bb84-ab7d-4e00-bbcd-7d784cdce65f")
+	)
+	(label "COL5"
+		(at 182.88 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebb727c3-9dd1-4594-b3a0-d09014cea747")
+	)
+	(label "C4R2D"
+		(at 163.83 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebbfae85-16f3-487f-9c59-f87a8b9736a7")
+	)
+	(label "C4R4D"
+		(at 163.83 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec749605-7cd7-470c-8580-7fecfee2a5e3")
+	)
+	(label "C11R4D"
+		(at 368.3 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed31c066-0949-4040-9ad0-764b624d6abe")
 	)
 	(label "COL10"
 		(at 26.67 49.53 180)
@@ -19277,6 +22099,46 @@
 			(justify right bottom)
 		)
 		(uuid "ed50a1db-68a3-4d54-ab93-861ca356524e")
+	)
+	(label "C6R3D"
+		(at 222.25 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed96f910-3cc1-4cec-af2a-8f90992eb9a2")
+	)
+	(label "COL9"
+		(at 299.72 300.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee2337ef-2142-4bc7-a529-bad958a30f66")
+	)
+	(label "COL6"
+		(at 212.09 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eec06a96-e8d7-4b13-a68b-a07e52e03281")
+	)
+	(label "C5R4D"
+		(at 193.04 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eecdaf08-cf18-4566-a6a3-f93abd3be9e4")
 	)
 	(label "GND"
 		(at 26.67 46.99 180)
@@ -19300,8 +22162,78 @@
 			)
 		)
 	)
+	(label "C8R1D"
+		(at 280.67 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f242ebbe-bba4-482a-bd09-b8470a1aff8d")
+	)
+	(label "C0R2D"
+		(at 149.86 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3fde816-38aa-4f0a-a4ed-a509b29c3187")
+	)
+	(label "COL5"
+		(at 182.88 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f47fe3a5-5779-480a-8e2a-2456b16b5fa9")
+	)
+	(label "C11R0D"
+		(at 368.3 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f53c6968-094c-47f7-a3e0-eb3ecdd18be6")
+	)
+	(label "C3R2D"
+		(at 134.62 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f614e94c-9fa5-4c3a-a46a-c6cb964a9b14")
+	)
+	(label "COL3"
+		(at 124.46 387.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f82ac2e3-23b0-4a95-9e59-b0050a62b530")
+	)
+	(label "C4R1D"
+		(at 327.66 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f96aa984-f981-43de-8c72-c8d430f34320")
+	)
 	(label "GND"
-		(at -91.44 119.38 0)
+		(at 168.91 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19311,7 +22243,7 @@
 		)
 		(uuid "f9ec9afa-3966-45c5-b380-70037ea7b0ee")
 		(property "Netclass" "power"
-			(at -91.44 120.65 0)
+			(at 168.91 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19321,6 +22253,46 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "C2R0D"
+		(at 105.41 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa18ca65-8242-4d6e-aaaa-3e92124dce19")
+	)
+	(label "C3R4D"
+		(at 134.62 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc21783b-1415-4fc1-9b40-36b47a3bc24d")
+	)
+	(label "C6R1D"
+		(at 222.25 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fca3b5d9-ab34-4c69-a92d-a008f9884328")
+	)
+	(label "C7R3D"
+		(at 251.46 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd139478-281d-4ffa-a14c-63193b89cf4d")
 	)
 	(label "GND"
 		(at 20.32 177.8 180)
@@ -19344,34 +22316,66 @@
 			)
 		)
 	)
+	(label "COL1"
+		(at 66.04 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe3274da-2709-4e1a-b965-2cfdb3242d79")
+	)
+	(label "COL4"
+		(at 153.67 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "feaea01d-27b4-444b-b993-965d30d2bbee")
+	)
+	(label "C9R1D"
+		(at 309.88 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffae3864-ec3d-4499-94d6-3e25ab853f0c")
+	)
 	(symbol
 		(lib_id "B3F-1000:B3F-1000")
-		(at 50.8 256.54 0)
+		(at 187.96 283.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01563d74-cb92-4907-b369-d247e505ad64")
-		(property "Reference" "S63"
-			(at 50.7984 243.84 0)
+		(uuid "009049b2-ec1f-4fff-9bb1-967e9c157787")
+		(property "Reference" "S78"
+			(at 196.85 281.9383 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "B3F-1000"
-			(at 50.7984 246.38 0)
+			(at 196.85 284.4783 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "B3F_1000:SW_B3F-1000"
-			(at 50.8 256.54 0)
+			(at 187.96 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,7 +22385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 256.54 0)
+			(at 187.96 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19390,7 +22394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 256.54 0)
+			(at 187.96 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19399,7 +22403,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Omron"
-			(at 50.8 256.54 0)
+			(at 187.96 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,21 +22413,108 @@
 			)
 		)
 		(pin "1"
-			(uuid "5dab3ed2-b130-4568-9c70-d5f31848fe1a")
+			(uuid "96367cbb-d63d-4e44-b763-306fb3fe6c3e")
 		)
 		(pin "2"
-			(uuid "6d44c04e-bc5a-433e-88c3-10a207a8096b")
+			(uuid "ba577129-75d2-49f0-bf04-d0eb6768f938")
 		)
 		(pin "4"
-			(uuid "b2ed6c00-4fd1-4acc-aa5e-f97a19038836")
+			(uuid "7bca77e1-1024-4b9a-9639-a675a4d4625e")
 		)
 		(pin "3"
-			(uuid "c940cc2a-5ce7-4b35-8f56-6828f3328671")
+			(uuid "fa174776-47cc-4860-9b85-c724cee55f96")
 		)
 		(instances
-			(project ""
+			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
-					(reference "S63")
+					(reference "S78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 275.59 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0374f8f1-8c0a-428d-b645-749454016f29")
+		(property "Reference" "S93"
+			(at 284.48 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 284.48 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 275.59 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 275.59 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56dd6e5b-2adf-496d-9f51-1f137a89844e")
+		)
+		(pin "2"
+			(uuid "f4e42d6d-2b02-4089-92ab-6d0c5e6fffc8")
+		)
+		(pin "4"
+			(uuid "fa3547c8-8288-4de0-a62c-0a814e9ecfe4")
+		)
+		(pin "3"
+			(uuid "25ca96a4-8adf-475a-80ea-bd94b1e30f7b")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S93")
 					(unit 1)
 				)
 			)
@@ -19771,6 +22862,267 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 41.91 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea15233-8525-4ac7-85fb-438f7be8520b")
+		(property "Reference" "S109"
+			(at 50.8 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 50.8 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 41.91 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 41.91 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54bfe2a-e762-42d5-935d-25dd4047ea85")
+		)
+		(pin "2"
+			(uuid "65b0d9ce-6f58-490e-8c9d-989812fddf4b")
+		)
+		(pin "4"
+			(uuid "3e8520f2-a459-4413-bb03-d9cc65e54691")
+		)
+		(pin "3"
+			(uuid "5260cb58-835d-4bde-8dff-ff4a1e00c75f")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 334.01 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f586b92-32ed-4463-90ab-3cfb0d35e792")
+		(property "Reference" "S83"
+			(at 342.9 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 342.9 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 334.01 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 334.01 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ccf0c88-5fc6-4bbf-a481-d960b0ca845b")
+		)
+		(pin "2"
+			(uuid "60165bbf-59c0-4f89-8589-7f9f2a3da290")
+		)
+		(pin "4"
+			(uuid "a15f1c45-a918-431a-8161-262c943163f9")
+		)
+		(pin "3"
+			(uuid "f10bc066-7765-4676-9445-9a3927733539")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 71.12 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102f8fbb-7b9e-46db-bc3e-58bdf9f1e894")
+		(property "Reference" "S62"
+			(at 80.01 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 80.01 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 71.12 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 71.12 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e0442d-eb32-47eb-9569-d00fdcbe6409")
+		)
+		(pin "2"
+			(uuid "73784b96-e120-4a48-9c89-bc90667d6647")
+		)
+		(pin "4"
+			(uuid "8b6b2812-23f2-410a-8bef-331c56cc3305")
+		)
+		(pin "3"
+			(uuid "c5f1d836-910a-42c5-ab03-50c439d7452c")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_4")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 287.02 147.32 0)
@@ -19842,6 +23194,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 158.75 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15e8cebd-645d-4746-87db-63f0b858b4dc")
+		(property "Reference" "S65"
+			(at 167.64 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 167.64 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516df684-b559-4acf-b380-715cd260aaf4")
+		)
+		(pin "2"
+			(uuid "7acd6d12-bfa4-43f6-a974-a4547b0a30f5")
+		)
+		(pin "4"
+			(uuid "05c348c8-3e8d-413c-b868-d0f94438f168")
+		)
+		(pin "3"
+			(uuid "bd089405-c258-4387-a9c7-14afcf06ce52")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S65")
 					(unit 1)
 				)
 			)
@@ -20014,7 +23453,7 @@
 	)
 	(symbol
 		(lib_id "1655:1655")
-		(at -15.24 114.3 0)
+		(at 245.11 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20023,7 +23462,7 @@
 		(fields_autoplaced yes)
 		(uuid "175f1ea8-867d-4d43-b61a-a00d98d57e67")
 		(property "Reference" "D65"
-			(at -15.24 101.6 0)
+			(at 245.11 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20031,7 +23470,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at -15.24 104.14 0)
+			(at 245.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20039,7 +23478,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20049,7 +23488,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20058,7 +23497,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20067,7 +23506,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20077,7 +23516,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20087,7 +23526,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20097,7 +23536,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at -15.24 114.3 0)
+			(at 245.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20539,9 +23978,183 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 217.17 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218a96a3-843b-46a2-bc49-6d6f7395c792")
+		(property "Reference" "S79"
+			(at 226.06 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 226.06 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 217.17 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 217.17 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4263e353-bc2a-4e84-91ac-a7f353436ba8")
+		)
+		(pin "2"
+			(uuid "75bbbf00-0523-400e-91ae-4621378769e3")
+		)
+		(pin "4"
+			(uuid "9f847aa0-d567-4037-b931-f2e58ec1ecd0")
+		)
+		(pin "3"
+			(uuid "f591cf1e-3386-4bfd-acff-801efc22e2ba")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 246.38 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234831ff-e6b7-4a48-a061-f088891f7307")
+		(property "Reference" "S68"
+			(at 255.27 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 255.27 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 246.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 246.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e3051c-eb1a-4d2a-ae41-333eab3f1970")
+		)
+		(pin "2"
+			(uuid "9d9dcd43-8298-4997-a299-51372b8aaaed")
+		)
+		(pin "4"
+			(uuid "8e4c47ad-d909-4808-9c0c-b41688825426")
+		)
+		(pin "3"
+			(uuid "b07a823a-bfd7-40fb-92b3-d93f4272f03e")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_6")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
-		(at 55.88 177.8 0)
+		(at 85.09 471.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20549,8 +24162,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2620c8b4-0af2-4d92-886e-3ef6e4f142fc")
-		(property "Reference" "S61"
-			(at 76.2 167.64 0)
+		(property "Reference" "S122"
+			(at 105.41 461.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20558,7 +24171,7 @@
 			)
 		)
 		(property "Value" "PTS526 SK15 SMTR2 LFS"
-			(at 76.2 170.18 0)
+			(at 105.41 463.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20566,7 +24179,7 @@
 			)
 		)
 		(property "Footprint" "lowproswitch:SMT_FS"
-			(at 55.88 177.8 0)
+			(at 85.09 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20576,7 +24189,7 @@
 			)
 		)
 		(property "Datasheet" "PTS526 SK15 SMTR2 LFS"
-			(at 55.88 177.8 0)
+			(at 85.09 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20586,7 +24199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 177.8 0)
+			(at 85.09 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20609,7 +24222,7 @@
 		(instances
 			(project ""
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
-					(reference "S61")
+					(reference "S122")
 					(unit 1)
 				)
 			)
@@ -20687,6 +24300,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 217.17 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28798587-8dd0-4e77-8788-6ab56110bd5e")
+		(property "Reference" "S67"
+			(at 226.06 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 226.06 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 217.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 217.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24533567-6828-406c-8dc2-de1846cf320f")
+		)
+		(pin "2"
+			(uuid "785ad2ab-9137-48cb-bb27-9cc01ddd40d6")
+		)
+		(pin "4"
+			(uuid "ec717c47-e554-4872-b4a4-b9ab34744d25")
+		)
+		(pin "3"
+			(uuid "68934fc1-087f-428b-9101-dc99d63806b7")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S67")
 					(unit 1)
 				)
 			)
@@ -20775,6 +24475,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 363.22 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29f6e206-5640-4d97-83a6-19db18a28332")
+		(property "Reference" "S84"
+			(at 372.11 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 372.11 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 363.22 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 363.22 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "431b0be4-600b-4e50-abd6-d348f03982ac")
+		)
+		(pin "2"
+			(uuid "95309b39-0980-418a-b5cf-d1eb83fc7cf3")
+		)
+		(pin "4"
+			(uuid "11431c15-c78a-4fc3-b122-870c5d17b230")
+		)
+		(pin "3"
+			(uuid "7db030b4-441a-476e-b56a-38c752294e15")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S84")
 					(unit 1)
 				)
 			)
@@ -21111,6 +24898,180 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 334.01 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e5afdac-5f78-478a-98f2-efed13d576e2")
+		(property "Reference" "S119"
+			(at 342.9 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 342.9 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 334.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 334.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "631ce150-b269-4b4b-8042-7f17a89e4473")
+		)
+		(pin "2"
+			(uuid "622ef9aa-c369-4dab-8680-faee258f3b47")
+		)
+		(pin "4"
+			(uuid "5292b264-9b26-476d-9f0b-43b0d946d1ea")
+		)
+		(pin "3"
+			(uuid "59706848-bebc-4326-af50-3fb7299f426c")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 100.33 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ff44f9a-ad22-4ad1-89e3-103fbf2b6d6c")
+		(property "Reference" "S99"
+			(at 109.22 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 109.22 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 100.33 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 100.33 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcac55f0-6db6-4e92-ae24-8c8d7bb65f33")
+		)
+		(pin "2"
+			(uuid "31998d68-8752-4bde-ba23-9c61a40d3cce")
+		)
+		(pin "4"
+			(uuid "8f7e98be-88f4-48c8-b12b-8e71e41b4d29")
+		)
+		(pin "3"
+			(uuid "e7d79565-e955-4aab-930d-ccd2e9496ac1")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 149.86 130.81 90)
 		(unit 1)
@@ -21276,6 +25237,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 187.96 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374cee33-c181-482f-bdbd-83472ce1060e")
+		(property "Reference" "S102"
+			(at 196.85 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 196.85 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 187.96 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 187.96 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71c1c933-3914-4461-be24-3631419eb0f7")
+		)
+		(pin "2"
+			(uuid "50871e16-c8ee-4f3e-aec0-426f04d80c5a")
+		)
+		(pin "4"
+			(uuid "6092e080-4810-4ebe-8798-ada54a8e6fbd")
+		)
+		(pin "3"
+			(uuid "44a49913-b725-465d-838d-05f9f9c66a7d")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_11")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 331.47 147.32 0)
@@ -21347,6 +25395,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 100.33 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37f97b0e-5eea-407f-832a-8c1462647281")
+		(property "Reference" "S111"
+			(at 109.22 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 109.22 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c30c953-5956-41a5-bc7c-914d5714904e")
+		)
+		(pin "2"
+			(uuid "2fe22cc0-adbb-4760-9706-c953e27c55d9")
+		)
+		(pin "4"
+			(uuid "0833bd03-aa5d-4066-960d-ed58a949c3e7")
+		)
+		(pin "3"
+			(uuid "89dd5aac-e734-4242-9a8e-34ec8dadf5ea")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S111")
 					(unit 1)
 				)
 			)
@@ -21435,6 +25570,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 71.12 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3970e9b1-88b3-4af1-8a41-8facb6cb1903")
+		(property "Reference" "S74"
+			(at 80.01 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 80.01 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 71.12 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 71.12 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cce3f490-3e24-4e34-8fa9-8f7f889dba29")
+		)
+		(pin "2"
+			(uuid "3d55a65b-639d-4ace-9484-ed764f0462c5")
+		)
+		(pin "4"
+			(uuid "03dbafab-f99a-49a6-844b-c583922b4637")
+		)
+		(pin "3"
+			(uuid "2e713a91-a7e5-40a1-be26-1dba2372475a")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S74")
 					(unit 1)
 				)
 			)
@@ -21600,6 +25822,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 158.75 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be92502-ed2e-4138-9a70-8471fe93c7a9")
+		(property "Reference" "S77"
+			(at 167.64 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 167.64 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 158.75 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 158.75 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487c7e6b-861f-4c12-a6ee-8f06c622272d")
+		)
+		(pin "2"
+			(uuid "0896ce6a-f8cb-4345-923a-4f12699585d6")
+		)
+		(pin "4"
+			(uuid "af827ad2-cfdc-4102-b147-e7b77fa1b0d2")
+		)
+		(pin "3"
+			(uuid "f5efabd6-8837-4ccc-8696-d488c9b34108")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S77")
 					(unit 1)
 				)
 			)
@@ -22035,6 +26344,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 334.01 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c8bcfa-3333-441a-b917-2f2bc8a46da4")
+		(property "Reference" "S107"
+			(at 342.9 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 342.9 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 334.01 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 334.01 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34b8e05-69fb-4005-8b82-0fdd62f9422b")
+		)
+		(pin "2"
+			(uuid "6523a20e-4a85-4dcf-9d1c-a69cca54c1d9")
+		)
+		(pin "4"
+			(uuid "0fd657f0-b343-4db6-ab9c-465d5f74c955")
+		)
+		(pin "3"
+			(uuid "fefefc41-2b15-4376-a822-cea60a6fedb3")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 149.86 156.21 90)
 		(unit 1)
@@ -22194,6 +26590,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 304.8 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4708e22b-6a3e-4383-8dda-e3b2e70d2ed1")
+		(property "Reference" "S82"
+			(at 313.69 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 313.69 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 304.8 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 304.8 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86f85c65-917f-454f-93ac-60a4addaa202")
+		)
+		(pin "2"
+			(uuid "27b5f5ef-f465-40e7-8bad-2eb689988c43")
+		)
+		(pin "4"
+			(uuid "2a35a76d-88d2-4829-976c-a504a4805ff6")
+		)
+		(pin "3"
+			(uuid "94528e11-d4f1-4c3b-ba56-61f333d274b6")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S82")
 					(unit 1)
 				)
 			)
@@ -22596,33 +27079,35 @@
 		)
 	)
 	(symbol
-		(lib_id "SSSS811101:SSSS811101")
-		(at 115.57 182.88 0)
+		(lib_id "B3F-1000:B3F-1000")
+		(at 217.17 344.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e7f36d7-4b3c-47a5-92ad-93cc70131b56")
-		(property "Reference" "S62"
-			(at 115.57 172.72 0)
+		(uuid "4db7898a-2a7e-4d09-a4ef-522774da1739")
+		(property "Reference" "S103"
+			(at 226.06 342.8983 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SSSS811101"
-			(at 115.57 175.26 0)
+		(property "Value" "B3F-1000"
+			(at 226.06 345.4383 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SSSS811101:SW_SSSS811101"
-			(at 115.57 182.88 0)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 217.17 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22632,7 +27117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 182.88 0)
+			(at 217.17 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22641,7 +27126,92 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 182.88 0)
+			(at 217.17 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 217.17 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a987f60-b83a-4800-a620-71d6049d44e6")
+		)
+		(pin "2"
+			(uuid "a052ab93-22f5-4438-99a2-978332f7d209")
+		)
+		(pin "4"
+			(uuid "aef9b770-3518-42bc-b039-83f1f744e1ed")
+		)
+		(pin "3"
+			(uuid "fb549a5e-2c8c-4075-8c30-a1bbd437c78b")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SSSS811101:SSSS811101")
+		(at 102.87 438.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7f36d7-4b3c-47a5-92ad-93cc70131b56")
+		(property "Reference" "S121"
+			(at 102.87 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSSS811101"
+			(at 102.87 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSSS811101:SW_SSSS811101"
+			(at 102.87 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22650,7 +27220,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 115.57 182.88 0)
+			(at 102.87 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22660,7 +27230,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 115.57 182.88 0)
+			(at 102.87 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22670,7 +27240,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.60 mm"
-			(at 115.57 182.88 0)
+			(at 102.87 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22680,7 +27250,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ALPS"
-			(at 115.57 182.88 0)
+			(at 102.87 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22701,7 +27271,7 @@
 		(instances
 			(project ""
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
-					(reference "S62")
+					(reference "S121")
 					(unit 1)
 				)
 			)
@@ -22790,6 +27360,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 100.33 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd23e82-25a9-4bef-b24a-320c288d9270")
+		(property "Reference" "S87"
+			(at 109.22 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 109.22 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 100.33 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 100.33 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455009eb-7fdb-4678-a774-b19ddfcb7b55")
+		)
+		(pin "2"
+			(uuid "c19e30f7-66ff-4d1e-918f-c3495bfa2a68")
+		)
+		(pin "4"
+			(uuid "a9da3c43-f781-436c-8aeb-4ffdfdd1c212")
+		)
+		(pin "3"
+			(uuid "94b1dfab-2ec8-49e4-b4d9-243c9aa3502c")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S87")
 					(unit 1)
 				)
 			)
@@ -23280,6 +27937,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 187.96 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559b66e0-759f-4680-bc29-913226bde189")
+		(property "Reference" "S66"
+			(at 196.85 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 196.85 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 187.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 187.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c1ea351-1906-4c62-88c1-26fee6bc137c")
+		)
+		(pin "2"
+			(uuid "19aba428-2523-44aa-99ee-7013cc4b311c")
+		)
+		(pin "4"
+			(uuid "8339d34b-ac00-4292-ab9b-3f7be9689a40")
+		)
+		(pin "3"
+			(uuid "777c3e56-0c81-4945-bda1-8de52c4b8f5d")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 416.56 105.41 90)
 		(unit 1)
@@ -23362,6 +28106,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 71.12 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57673f94-f992-4cb2-a959-dd5a273a36eb")
+		(property "Reference" "S110"
+			(at 80.01 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 80.01 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 71.12 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 71.12 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed74d72c-9f81-43c5-9d75-b5e1cd699f87")
+		)
+		(pin "2"
+			(uuid "a5712a9a-23cc-4bb7-8b11-6e8bab6e1375")
+		)
+		(pin "4"
+			(uuid "af1ae879-a555-469b-9c5b-0508a85d3d20")
+		)
+		(pin "3"
+			(uuid "49b01da4-f68e-453d-a3a1-93d4f7469cb4")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S110")
 					(unit 1)
 				)
 			)
@@ -23610,6 +28441,180 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 334.01 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c53d397-2e1f-4662-8a44-944649d4e7b1")
+		(property "Reference" "S95"
+			(at 342.9 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 342.9 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 334.01 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 334.01 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f0d394c-00b2-4a3f-94a7-62d25e563c17")
+		)
+		(pin "2"
+			(uuid "71584329-62b5-4016-94f5-879f3b97995d")
+		)
+		(pin "4"
+			(uuid "10c7d557-b5b2-4e16-9ca8-8f71b287ac65")
+		)
+		(pin "3"
+			(uuid "15eeb730-5897-4178-82b4-d23787123a31")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 363.22 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cd4894f-02c0-436f-a569-4128ec95f721")
+		(property "Reference" "S108"
+			(at 372.11 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 372.11 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 363.22 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 363.22 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fc5eb46-d097-456b-812c-d7717a899e3a")
+		)
+		(pin "2"
+			(uuid "80f47baf-852f-4e68-8057-399169613dfa")
+		)
+		(pin "4"
+			(uuid "046554dc-3811-4b20-86ba-19be20050fa5")
+		)
+		(pin "3"
+			(uuid "5f494048-d67a-4d51-b418-1d86f1dd01de")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 461.01 80.01 90)
 		(unit 1)
@@ -23775,6 +28780,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 246.38 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e28bb5c-9c9b-4372-befb-da1d60411681")
+		(property "Reference" "S104"
+			(at 255.27 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 255.27 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 246.38 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 246.38 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054cc9fc-c294-421b-99e2-d9d45cd40e97")
+		)
+		(pin "2"
+			(uuid "32ab4b85-4cf3-4aa6-bf59-9640b239a029")
+		)
+		(pin "4"
+			(uuid "6cd0d5f4-03c7-4fa4-9cb6-4aa77e48f998")
+		)
+		(pin "3"
+			(uuid "14f48168-d012-4ba6-b2d5-ccf2a068d72c")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 283.21 80.01 90)
 		(unit 1)
@@ -23863,6 +28955,180 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 304.8 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61589f18-7a54-47ec-b7a0-ecbfe6c14cb5")
+		(property "Reference" "S70"
+			(at 313.69 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 313.69 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 304.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 304.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd44437-653f-4a54-854a-c47f24fe3201")
+		)
+		(pin "2"
+			(uuid "b12fd760-9a7c-43c8-92dd-e945413283ba")
+		)
+		(pin "4"
+			(uuid "3439d148-db86-4686-bd70-e4237aa6370f")
+		)
+		(pin "3"
+			(uuid "bc3da147-1645-46ef-a242-1460d49e1f6b")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 363.22 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f5a2fc-fbc5-48f1-9fa4-6b4ef58a24d7")
+		(property "Reference" "S96"
+			(at 372.11 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 372.11 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 363.22 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 363.22 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "394557b2-7aba-45a6-8b30-ba06619520da")
+		)
+		(pin "2"
+			(uuid "d42f66d3-b484-4ecf-aa37-2548fed77dda")
+		)
+		(pin "4"
+			(uuid "bf0a70b3-065c-429a-8e25-e03317a4e980")
+		)
+		(pin "3"
+			(uuid "efd07d12-b5d3-4317-8840-3912640f4383")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_22")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 509.27 96.52 0)
@@ -23941,7 +29207,7 @@
 	)
 	(symbol
 		(lib_id "1655:1655")
-		(at 45.72 114.3 0)
+		(at 306.07 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23950,7 +29216,7 @@
 		(fields_autoplaced yes)
 		(uuid "62592cc4-2c7f-4ac8-b459-9f0617b07de0")
 		(property "Reference" "D67"
-			(at 45.72 101.6 0)
+			(at 306.07 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23958,7 +29224,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 45.72 104.14 0)
+			(at 306.07 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23966,7 +29232,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23976,7 +29242,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23985,7 +29251,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23994,7 +29260,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24004,7 +29270,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24014,7 +29280,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24024,7 +29290,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 45.72 114.3 0)
+			(at 306.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24440,6 +29706,267 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 158.75 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d2ffcaa-b63d-4500-aed9-f6c0130a8c0c")
+		(property "Reference" "S89"
+			(at 167.64 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 167.64 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 158.75 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 158.75 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b700806-b0f9-4aea-9317-1c9e73ea2798")
+		)
+		(pin "2"
+			(uuid "522271e8-4239-4466-9dc0-a9f0298692a2")
+		)
+		(pin "4"
+			(uuid "313cdb0a-8462-4ebc-a784-de8071db8ac4")
+		)
+		(pin "3"
+			(uuid "ccfcb026-fa76-443f-947f-c745eeffc873")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 363.22 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dfcb424-e075-4725-a3f6-7c90c47544bc")
+		(property "Reference" "S120"
+			(at 372.11 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 372.11 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 363.22 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 363.22 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8f01e27-0c3d-497b-ba8b-f31d0f21a011")
+		)
+		(pin "2"
+			(uuid "4f9b28cb-539a-4373-a37c-74d97df2fd94")
+		)
+		(pin "4"
+			(uuid "0dd5e601-fd70-4153-a989-e409e9965c25")
+		)
+		(pin "3"
+			(uuid "bc9fa537-d86c-4787-bc32-2af916d74cf1")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 41.91 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e17277c-62d3-4c5d-a10f-6aae816dd04a")
+		(property "Reference" "S61"
+			(at 50.8 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 50.8 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 41.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 41.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a373840-e483-47ae-8ed4-c388e938b07f")
+		)
+		(pin "2"
+			(uuid "aaa55713-497c-4b9f-b791-e2e6f170f633")
+		)
+		(pin "4"
+			(uuid "c72fd944-9187-4147-adfd-d0f378442afc")
+		)
+		(pin "3"
+			(uuid "3c3ed2b9-e919-4756-8f3e-2211eee192ef")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 149.86 54.61 90)
 		(unit 1)
@@ -24704,6 +30231,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 363.22 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72feb7c5-255d-4faa-a9a4-c3a4cd5577ed")
+		(property "Reference" "S72"
+			(at 372.11 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 372.11 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 363.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 363.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a988a71a-4e73-4328-924d-3e061197bf21")
+		)
+		(pin "2"
+			(uuid "d381444b-f4a1-422b-9474-9cd82406fa57")
+		)
+		(pin "4"
+			(uuid "209c477c-6b06-4a80-894c-3f0966d7bee1")
+		)
+		(pin "3"
+			(uuid "f9a77442-6322-48fe-9c40-070c09f44cbd")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_25")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 464.82 45.72 0)
@@ -24775,6 +30389,265 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 41.91 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "762ab092-7764-48aa-b3fb-27dd24321784")
+		(property "Reference" "S73"
+			(at 50.8 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 50.8 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 41.91 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 41.91 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90b4da64-0180-472a-8821-1ead4fa962da")
+		)
+		(pin "2"
+			(uuid "da87753a-a6dd-48d4-bae9-cf9e7ef603a3")
+		)
+		(pin "4"
+			(uuid "ef2c5c2b-a1e9-40ad-9036-e88df6d0ef1f")
+		)
+		(pin "3"
+			(uuid "f9062375-7c39-4e2b-9139-e3f21938325b")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 104.14 494.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7642b3a8-438c-4997-a9da-b93b1509ee04")
+		(property "Reference" "S123"
+			(at 104.1415 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 104.1415 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 104.14 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 104.14 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a587b3a-7f7c-4208-907d-972d3123b6dd")
+		)
+		(pin "2"
+			(uuid "1bdd92f5-b4c7-4b32-a9f9-3efc18205d21")
+		)
+		(pin "4"
+			(uuid "3b20aafc-b1f9-42ab-8c3c-df62d3bb28d1")
+		)
+		(pin "3"
+			(uuid "a11dddb6-24b2-42b6-8096-171093a68904")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 158.75 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76853d07-be37-4ef5-b43f-1ea8bf31fa12")
+		(property "Reference" "S101"
+			(at 167.64 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 167.64 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 158.75 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 158.75 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c66daf7-6182-467b-85e6-346be720d50f")
+		)
+		(pin "2"
+			(uuid "212f92aa-d582-4c77-b39f-7aa2798d17c2")
+		)
+		(pin "4"
+			(uuid "a4da3141-b565-4fbf-81b4-0655d48ed88d")
+		)
+		(pin "3"
+			(uuid "7d27bbcf-57b8-4cff-ad6d-ef71c0f2f969")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S101")
 					(unit 1)
 				)
 			)
@@ -24957,6 +30830,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 129.54 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77e6b818-ffc2-4ca9-b95f-7d7cf0eb9808")
+		(property "Reference" "S88"
+			(at 138.43 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 138.43 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 129.54 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 129.54 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f23926-e8fa-4f59-a49e-4487c0bb6d50")
+		)
+		(pin "2"
+			(uuid "0e036b99-2e2b-4752-9dc5-0ae1dec39aef")
+		)
+		(pin "4"
+			(uuid "9471898d-3116-492b-909a-52a2f3efe564")
+		)
+		(pin "3"
+			(uuid "b3ca6acc-cbb9-46f1-ae62-b491259b00bf")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 416.56 156.21 90)
 		(unit 1)
@@ -25046,7 +31006,7 @@
 	)
 	(symbol
 		(lib_id "1655:1655")
-		(at -76.2 114.3 0)
+		(at 184.15 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25055,7 +31015,7 @@
 		(fields_autoplaced yes)
 		(uuid "794271bd-eb09-449a-b39e-e32637760768")
 		(property "Reference" "D63"
-			(at -76.2 101.6 0)
+			(at 184.15 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25063,7 +31023,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at -76.2 104.14 0)
+			(at 184.15 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25071,7 +31031,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25081,7 +31041,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25090,7 +31050,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25099,7 +31059,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25109,7 +31069,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25119,7 +31079,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25129,7 +31089,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at -76.2 114.3 0)
+			(at 184.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25396,6 +31356,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 187.96 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd1f984-d117-4cde-a6f7-fa1ca1e99142")
+		(property "Reference" "S90"
+			(at 196.85 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 196.85 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 187.96 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 187.96 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1cdf401-9716-44ba-aa5e-6eda9f026846")
+		)
+		(pin "2"
+			(uuid "a4f86bdf-f2db-4fe8-b06e-7a3739192430")
+		)
+		(pin "4"
+			(uuid "b812219f-1e39-4707-a49f-48f0d0660674")
+		)
+		(pin "3"
+			(uuid "b63c4432-8eef-4f20-8928-33116b8cacc8")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S90")
 					(unit 1)
 				)
 			)
@@ -25831,8 +31878,95 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 246.38 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a94565-2f94-48f2-a7cc-9a12bdb6d6d9")
+		(property "Reference" "S92"
+			(at 255.27 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 255.27 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 246.38 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 246.38 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d399c52-9735-4e7d-b380-65c766ebe805")
+		)
+		(pin "2"
+			(uuid "79b793bb-80f6-4541-998e-7085eda211b3")
+		)
+		(pin "4"
+			(uuid "820a1dd3-0251-4b5a-a144-e1ae40cff123")
+		)
+		(pin "3"
+			(uuid "772e232d-cd31-4d19-bde7-1032aa5760fd")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1655:1655")
-		(at -137.16 114.3 0)
+		(at 123.19 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25841,7 +31975,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8f4f4a-3d44-433f-9ce4-d9feec87b668")
 		(property "Reference" "D61"
-			(at -137.16 101.6 0)
+			(at 123.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25849,7 +31983,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at -137.16 104.14 0)
+			(at 123.19 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25857,7 +31991,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25867,7 +32001,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25876,7 +32010,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25885,7 +32019,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +32029,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25905,7 +32039,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25915,7 +32049,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at -137.16 114.3 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26034,6 +32168,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 100.33 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92af3277-f475-4417-95c6-c6b017269a2c")
+		(property "Reference" "S75"
+			(at 109.22 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 109.22 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 100.33 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 100.33 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0132d227-c18c-476b-ab17-f44138d36dd7")
+		)
+		(pin "2"
+			(uuid "6c70b205-ddaf-4276-b936-8a317134ecb4")
+		)
+		(pin "4"
+			(uuid "a4bc2672-38ed-44ef-8713-b58c8b4f7040")
+		)
+		(pin "3"
+			(uuid "a75819f3-2de4-4273-ba01-4963083f2ede")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_29")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 153.67 45.72 0)
@@ -26105,6 +32326,180 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 129.54 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b6952a-d0b6-4a64-8fd6-7802ca5bdb15")
+		(property "Reference" "S100"
+			(at 138.43 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 138.43 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 129.54 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 129.54 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19be4bd6-7c39-47aa-b46c-2d837cdbbf72")
+		)
+		(pin "2"
+			(uuid "50a3eefb-b14e-4754-993e-8adfdd4c1825")
+		)
+		(pin "4"
+			(uuid "7c721215-7e96-40d3-9ea2-960482a5f483")
+		)
+		(pin "3"
+			(uuid "78f83595-2f72-4159-98e9-6919719d20b2")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 158.75 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96496025-a4bc-4528-a5a5-2ba1b2aeddfd")
+		(property "Reference" "S113"
+			(at 167.64 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 167.64 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e885af5b-9fd7-4e0a-8050-59c1f8fdfa6b")
+		)
+		(pin "2"
+			(uuid "a6b5a16c-f9e0-42dd-996a-5ab24330cc0b")
+		)
+		(pin "4"
+			(uuid "439e8aa3-84af-4a76-ae6b-d1189a266fd6")
+		)
+		(pin "3"
+			(uuid "354b96f9-6ac3-4b3a-a4e6-02a39866d0d8")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S113")
 					(unit 1)
 				)
 			)
@@ -26347,6 +32742,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 187.96 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8d92b5-6da5-4edf-973d-39ed2748cef8")
+		(property "Reference" "S114"
+			(at 196.85 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 196.85 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 187.96 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 187.96 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa6aa5e0-1332-4cc8-9696-837cde26bfa3")
+		)
+		(pin "2"
+			(uuid "eef8804d-5bec-41ae-9406-f22608310082")
+		)
+		(pin "4"
+			(uuid "cf3080af-ec95-46fe-bdcd-1386aa80bd13")
+		)
+		(pin "3"
+			(uuid "ee29f84e-bade-49e8-9463-91adedf8507a")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S114")
 					(unit 1)
 				)
 			)
@@ -26672,6 +33154,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 304.8 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a71b39aa-d6b2-4c97-ab40-ff4dc7fa6cda")
+		(property "Reference" "S106"
+			(at 313.69 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 313.69 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 304.8 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 304.8 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a2ed6d-6935-4f07-81b9-6079a3a9382d")
+		)
+		(pin "2"
+			(uuid "34261a6e-267c-4466-bfac-16f9e5d3bc46")
+		)
+		(pin "4"
+			(uuid "bb50d758-6fc1-4e7f-b482-220af9eb8bef")
+		)
+		(pin "3"
+			(uuid "f9dcbe54-9787-44ca-a74f-f3a4eb3dffe9")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_32")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 420.37 45.72 0)
@@ -26914,6 +33483,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 100.33 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab39a3d8-8cc2-4c41-9e56-83e76842cffa")
+		(property "Reference" "S63"
+			(at 109.22 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 109.22 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 100.33 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 100.33 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc5308e-e3ad-42d9-9b4b-ba21cd0df526")
+		)
+		(pin "2"
+			(uuid "4c1739a8-f2e4-43ec-9365-9fb5de1e1773")
+		)
+		(pin "4"
+			(uuid "fd0a4c94-9ed6-4a8c-a747-29deb6346bba")
+		)
+		(pin "3"
+			(uuid "8890116b-9dd9-4598-abe3-17bdcc55a8c4")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 505.46 156.21 90)
 		(unit 1)
@@ -26996,6 +33652,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 71.12 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee6dfd9-f193-4170-a475-0e4cd01379c9")
+		(property "Reference" "S98"
+			(at 80.01 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 80.01 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 71.12 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 71.12 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8c227f-82f6-4e7b-aad2-47d346807e17")
+		)
+		(pin "2"
+			(uuid "9a792487-95a8-42da-b8ba-bceaa83e2cf0")
+		)
+		(pin "4"
+			(uuid "82d4d1b6-e919-44c2-9c24-9dd1ef95172d")
+		)
+		(pin "3"
+			(uuid "02401ed8-ffe6-4a2d-83e7-e0eff0cd2cf9")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S98")
 					(unit 1)
 				)
 			)
@@ -27249,6 +33992,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 129.54 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65418b8-21ca-44de-8ed4-11dd0aa268b0")
+		(property "Reference" "S64"
+			(at 138.43 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 138.43 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 129.54 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 129.54 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c22236b0-7f7b-4a42-b360-48dd435f944e")
+		)
+		(pin "2"
+			(uuid "3b1b57ef-b1d6-4ab5-91da-ac57ee3e1a5a")
+		)
+		(pin "4"
+			(uuid "947b06a3-ec51-4cc1-8f02-4c83af3e389b")
+		)
+		(pin "3"
+			(uuid "b77731a0-2bf8-4e16-8b4e-93af240a191f")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S64")
 					(unit 1)
 				)
 			)
@@ -28157,6 +34987,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 304.8 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c793c09f-4a10-4b1a-98f1-076020fab863")
+		(property "Reference" "S94"
+			(at 313.69 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 313.69 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 304.8 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 304.8 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6511a51-8f7a-4932-bc86-2379029410e5")
+		)
+		(pin "2"
+			(uuid "129db3f2-f16e-462e-9c45-fdb4ee9ec5de")
+		)
+		(pin "4"
+			(uuid "fc075ba1-c3cb-4b29-a87c-08be199dc257")
+		)
+		(pin "3"
+			(uuid "38380a1a-6966-40dc-bade-d640c96f58f3")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_40")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 109.22 96.52 0)
@@ -28382,6 +35299,267 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 246.38 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce1f730c-b74c-4d90-a9fa-11131bc4da30")
+		(property "Reference" "S116"
+			(at 255.27 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 255.27 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 246.38 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 246.38 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acef6f4b-6b3e-49dc-ab87-3eec82c66f0a")
+		)
+		(pin "2"
+			(uuid "0f832b66-04d4-4f24-9b7b-5defb30b975e")
+		)
+		(pin "4"
+			(uuid "2fcda18f-6b44-4909-822f-c89324203c60")
+		)
+		(pin "3"
+			(uuid "c377f094-d09b-4804-a696-cdbe2d03e4e9")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 304.8 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce560e10-8532-4cf1-b7e5-4e887f9f862a")
+		(property "Reference" "S118"
+			(at 313.69 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 313.69 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 304.8 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 304.8 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbbad843-35b7-4fc6-a62f-ac0226424994")
+		)
+		(pin "2"
+			(uuid "9b20f336-d2c0-4b08-8aab-12d70f882ddf")
+		)
+		(pin "4"
+			(uuid "853444d3-a074-4c94-812d-92b06be9082f")
+		)
+		(pin "3"
+			(uuid "e431cd38-083a-48f9-9248-672ee7c44ab9")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 129.54 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7c0561-e3de-4bcf-8122-68ac607880b7")
+		(property "Reference" "S112"
+			(at 138.43 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 138.43 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 129.54 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 129.54 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3019eec6-01f5-471f-9e6b-00d2f7b58ac9")
+		)
+		(pin "2"
+			(uuid "0f50f81b-90a6-4dbe-8aec-fa06060fdd0c")
+		)
+		(pin "4"
+			(uuid "18f33f53-9b8a-4955-adde-7cd7cef67cbd")
+		)
+		(pin "3"
+			(uuid "746978d4-c385-4248-8d3d-b7c2ecf0d837")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S112")
 					(unit 1)
 				)
 			)
@@ -28718,6 +35896,180 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 41.91 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d640612a-8037-4b7a-9557-19ac55d8ad5a")
+		(property "Reference" "S85"
+			(at 50.8 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 50.8 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 41.91 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 41.91 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd504288-d3d0-46af-bb10-e561e27f4e2d")
+		)
+		(pin "2"
+			(uuid "97ccf004-d617-490f-8c50-80358da3a5c3")
+		)
+		(pin "4"
+			(uuid "fbb19753-64c7-4dd2-b46f-d8381f87e356")
+		)
+		(pin "3"
+			(uuid "36fe8514-f041-49e5-82ba-08ad612780d7")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 129.54 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d765825f-8808-4509-9bde-262d4c4eaa51")
+		(property "Reference" "S76"
+			(at 138.43 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 138.43 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 129.54 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 129.54 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8472612-70e9-49ad-a055-b53b17e98186")
+		)
+		(pin "2"
+			(uuid "c8cd8715-89db-497d-821f-8ef0c1160560")
+		)
+		(pin "4"
+			(uuid "cee42cf6-9f95-4f8e-b345-7d93bc81db12")
+		)
+		(pin "3"
+			(uuid "568389f8-e965-4663-b8e7-86dbbb35a17c")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_45")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 242.57 45.72 0)
@@ -28872,6 +36224,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 334.01 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dad42f2a-95c0-4ac8-b168-173053963f36")
+		(property "Reference" "S71"
+			(at 342.9 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 342.9 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 334.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 334.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c60d3067-4691-4d9a-a2c0-6faaaab1c0e1")
+		)
+		(pin "2"
+			(uuid "65e45b30-63d2-4a6b-a0cc-96e920c1875b")
+		)
+		(pin "4"
+			(uuid "6391507e-6769-420f-afa4-e4b12ccd0fe6")
+		)
+		(pin "3"
+			(uuid "551a4caa-e752-431a-abb7-993f60dca2a1")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_47")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 242.57 71.12 0)
@@ -28943,6 +36382,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 71.12 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc1931a-1e66-4a5b-86cb-272d6c6f6f63")
+		(property "Reference" "S86"
+			(at 80.01 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 80.01 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 71.12 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 71.12 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db5f6771-e874-4115-b75b-b9775fc61df0")
+		)
+		(pin "2"
+			(uuid "25daf942-9f9c-4853-a21e-ba3987b5af05")
+		)
+		(pin "4"
+			(uuid "6e7d6588-88cf-41aa-b013-a274dc4c3b48")
+		)
+		(pin "3"
+			(uuid "1d706ed8-2f8f-402c-bbfc-06ad8c3908f7")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S86")
 					(unit 1)
 				)
 			)
@@ -29280,7 +36806,7 @@
 	)
 	(symbol
 		(lib_id "1655:1655")
-		(at 15.24 114.3 0)
+		(at 275.59 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29289,7 +36815,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3a0d027-de59-49a8-8eac-c5f214ab4f40")
 		(property "Reference" "D66"
-			(at 15.24 101.6 0)
+			(at 275.59 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29297,7 +36823,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 15.24 104.14 0)
+			(at 275.59 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29305,7 +36831,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29315,7 +36841,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29324,7 +36850,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29333,7 +36859,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29343,7 +36869,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29353,7 +36879,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29363,7 +36889,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 15.24 114.3 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29470,6 +36996,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 217.17 313.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e69ddf3a-2bef-4f41-a533-35d26154ba8d")
+		(property "Reference" "S91"
+			(at 226.06 312.4183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 226.06 314.9583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 217.17 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 217.17 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da97463f-17ce-417d-afed-9a82b1af8f55")
+		)
+		(pin "2"
+			(uuid "0b571ca7-f6d2-4dc0-897d-92c64773874e")
+		)
+		(pin "4"
+			(uuid "2cc7eb70-0709-4eb2-a69e-8bcd27743169")
+		)
+		(pin "3"
+			(uuid "95b63dc2-48b3-4945-98ca-08b636d81f38")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_58")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 598.17 71.12 0)
@@ -29547,8 +37160,95 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 275.59 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d1cd64-c12b-4a48-aebe-d878b07923f3")
+		(property "Reference" "S69"
+			(at 284.48 252.7283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 284.48 255.2683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 275.59 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 275.59 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce8bfe46-d4de-4bab-82cc-cb2b003fa6bc")
+		)
+		(pin "2"
+			(uuid "de79a52b-837c-4449-9f32-bca2bc2d3ea0")
+		)
+		(pin "4"
+			(uuid "9330fa98-b0a0-4cd5-a48a-ac9e722038d8")
+		)
+		(pin "3"
+			(uuid "402645cc-e6e3-4060-a109-8a7d4e6155aa")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1655:1655")
-		(at -106.68 114.3 0)
+		(at 153.67 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29557,7 +37257,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8e15dd6-3fcc-4879-90f4-d38c48a34e06")
 		(property "Reference" "D62"
-			(at -106.68 101.6 0)
+			(at 153.67 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29565,7 +37265,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at -106.68 104.14 0)
+			(at 153.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29573,7 +37273,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29583,7 +37283,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29592,7 +37292,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29601,7 +37301,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29611,7 +37311,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29621,7 +37321,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29631,7 +37331,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at -106.68 114.3 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29733,6 +37433,93 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 275.59 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7fd47a-6257-48f6-a9a9-7ab071b0568c")
+		(property "Reference" "S81"
+			(at 284.48 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 284.48 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 275.59 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 275.59 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b9b758e-5ded-4ddd-a556-a17921525832")
+		)
+		(pin "2"
+			(uuid "96347cc7-c7c9-4c7a-b233-f9c219e537c1")
+		)
+		(pin "4"
+			(uuid "22ca7c44-d230-4a51-9adc-372717048f9c")
+		)
+		(pin "3"
+			(uuid "f55ace6c-4c05-4201-9e05-4741ea5a5907")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S81")
 					(unit 1)
 				)
 			)
@@ -29916,7 +37703,7 @@
 	)
 	(symbol
 		(lib_id "1655:1655")
-		(at -45.72 114.3 0)
+		(at 214.63 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29924,7 +37711,7 @@
 		(dnp no)
 		(uuid "f076e133-f538-4bcc-ac1b-60f100aa92bb")
 		(property "Reference" "D64"
-			(at -45.72 101.6 0)
+			(at 214.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29932,7 +37719,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at -45.72 104.14 0)
+			(at 214.63 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29940,7 +37727,7 @@
 			)
 		)
 		(property "Footprint" "1655:LED_1655"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29950,7 +37737,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29959,7 +37746,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29968,7 +37755,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29978,7 +37765,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29988,7 +37775,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29998,7 +37785,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at -45.72 114.3 0)
+			(at 214.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30205,6 +37992,93 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 275.59 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f363454a-060a-4288-bcdf-8f46afb14940")
+		(property "Reference" "S117"
+			(at 284.48 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 284.48 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 275.59 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 275.59 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a8c36d-8cc2-4a78-a72b-defb3fcbb782")
+		)
+		(pin "2"
+			(uuid "9521f586-6e6f-4651-9f17-53099b9800be")
+		)
+		(pin "4"
+			(uuid "af79e6b0-d375-4dff-b60e-118994af7934")
+		)
+		(pin "3"
+			(uuid "af702448-89c1-4bb6-9a1e-e674f22c48fc")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 416.56 130.81 90)
 		(unit 1)
@@ -30293,6 +38167,180 @@
 		)
 	)
 	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 275.59 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f38b55f0-1dfe-4f90-9a41-3c4a3395175d")
+		(property "Reference" "S105"
+			(at 284.48 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 284.48 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 275.59 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 275.59 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77bc8838-0b64-4ec5-a87a-cd75954ec27d")
+		)
+		(pin "2"
+			(uuid "7511729d-c7bb-4c29-9f63-2c030e4c64d5")
+		)
+		(pin "4"
+			(uuid "a728addb-fd23-41fb-8ab7-28fa4986f0d5")
+		)
+		(pin "3"
+			(uuid "31cf9da1-e3d7-409e-824b-4da228612a24")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 217.17 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4aeef60-0ce3-4f89-81bd-7f1bba722043")
+		(property "Reference" "S115"
+			(at 226.06 373.3783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 226.06 375.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 217.17 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 217.17 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd5c1e01-afc1-4ea7-9ce6-3c49811b7603")
+		)
+		(pin "2"
+			(uuid "04c4cc65-a678-4660-a80a-e5b1fd979c47")
+		)
+		(pin "4"
+			(uuid "709d5fde-0ccc-4a45-92f9-5169d90ce53a")
+		)
+		(pin "3"
+			(uuid "c972b402-d90b-4bdf-8fdd-4c75491ee166")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "PTS526_SK15_SMTR2_LFS_51")
 		(lib_id "2025-08-21_16-21-39:PTS526_SK15_SMTR2_LFS")
 		(at 242.57 147.32 0)
@@ -30364,6 +38412,180 @@
 			(project "thumb-keyboard"
 				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
 					(reference "S52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 246.38 283.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f96cf450-2158-450a-bece-c83a0d2b22b9")
+		(property "Reference" "S80"
+			(at 255.27 281.9383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 255.27 284.4783 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 246.38 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 246.38 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6893e5ae-eaba-4680-9a61-635208245cf8")
+		)
+		(pin "2"
+			(uuid "0e62bbea-4623-4720-920a-b7112959fbf5")
+		)
+		(pin "4"
+			(uuid "3f5ef2ee-f311-48ac-a3c0-d1d7a057d715")
+		)
+		(pin "3"
+			(uuid "29f27cc9-48be-4006-8bf9-3f95c9972dfd")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B3F-1000:B3F-1000")
+		(at 41.91 344.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa2580ec-bb5a-4d3e-b888-3de9b4d704a4")
+		(property "Reference" "S97"
+			(at 50.8 342.8983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 50.8 345.4383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B3F_1000:SW_B3F-1000"
+			(at 41.91 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 41.91 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac8b175-5dea-46c3-8663-fd76a1ef0e21")
+		)
+		(pin "2"
+			(uuid "30780b9e-c011-431e-aa1f-4d25ad2574e0")
+		)
+		(pin "4"
+			(uuid "884fe85f-f4f2-4532-a705-492046eaba2a")
+		)
+		(pin "3"
+			(uuid "92142798-10e3-40f1-917f-698f7647aeaf")
+		)
+		(instances
+			(project "thumb-keyboard"
+				(path "/35e758f0-97c2-4ebe-bd8c-ab932be10f60"
+					(reference "S97")
 					(unit 1)
 				)
 			)
