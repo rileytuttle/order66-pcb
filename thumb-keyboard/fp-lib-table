@@ -8,4 +8,5 @@
   (lib (name "hiproswitch")(type "KiCad")(uri "${KIPRJMOD}/../libraries/222AMVBAR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "reverse_mount_led")(type "KiCad")(uri "${KIPRJMOD}/../libraries/4960/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "1655")(type "KiCad")(uri "${KIPRJMOD}/../libraries/1655")(options "")(descr ""))
+  (lib (name "thummingbird")(type "KiCad")(uri "/home/rileytuttle/order66keyboard/order66-pcb/libraries/thummingbird")(options "")(descr ""))
 )
